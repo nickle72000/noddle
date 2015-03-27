@@ -1,0 +1,1 @@
+Please read documentation on DOCUMENTATION folder

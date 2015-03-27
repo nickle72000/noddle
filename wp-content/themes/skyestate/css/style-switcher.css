@@ -1,0 +1,115 @@
+#style-switcher {  
+  position: fixed;  
+  width: 100px;
+  top: 155px;
+  left: -160px;      
+  color:#ffffff;
+  letter-spacing:-1px;
+  background: #fafafa;
+  padding: 70px 25px 5px 25px;
+  border:1px solid #d0d0d0;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-bottom-right-radius: 5px;
+  z-index:9000;
+  transition: left 0.7s;
+  -moz-transition: left 0.7s; /* Firefox 4 */
+  -webkit-transition: left 0.7s; /* Safari and Chrome */
+  -o-transition: left 0.7s; /* Opera */
+}
+#style-switcher.active {
+  left: -1px;  
+}
+
+#style-switcher-form{position:relative;}
+#style-switcher-heading{
+	position:absolute;
+	top:-70px;left:-25px;
+	background-color:#231f20;
+	letter-spacing:-2px;
+	background-image:url(../images/arrow-switcher.png); 
+	background-repeat:no-repeat; 
+	background-position:159px 6px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topright:5px;
+}
+#style-switcher-heading a{
+	padding:10px 10px 10px 12px;
+	width:170px;
+	letter-spacing:-2px;
+	display:block;
+}
+#style-switcher.active #style-switcher-heading{
+	background-position:159px -33px;
+}
+#style-switcher h4{color:#ffffff;margin:0px;letter-spacing:0px; word-spacing:7px; text-transform:uppercase;} 	
+.color-box,
+.pattern-box,
+.bg-box {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:2px;
+	margin-left:2px;
+  margin-bottom: 5px;
+  border: 1px solid #cacaca;
+}
+#colorpicker, #colorpicker2, #colorpicker3, #colorpicker4, #colorpicker5, #colorpicker6, #colorpicker7, #colorpicker8, #colorpicker9, #colorpicker10, #colorpicker11, #colorpicker12, #colorpicker13 {
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/colorpicker/select2.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-right:5px;
+}
+.pickertext{
+	font-size:10px;
+	font-weight:normal;
+}
+#colorpicker div, #colorpicker2 div, #colorpicker3 div, #colorpicker4 div {
+	width: 28px;
+	height: 28px;
+	background: url(../images/colorpicker/select2.png) center;
+}
+div.switchercontainer{
+	margin-bottom:20px;
+}
+div.switchercontainer span{
+	display:block;
+	margin-bottom:3px;
+	padding-left:2px;
+	color:#333333;
+	font-weight:bold;
+	font-size:11px;
+}
+
+div.mouseslide{
+	width:100%;
+	height:2px;
+	border:1px solid #5d5d5d;
+	position:relative;
+	margin:8px 0px;
+}
+.ui-state-default{top:-8px !important; border:1px solid #231f20;}
+a#switcher-reset{
+	display:block;
+	width:64px;
+	line-height:22px;
+	padding:3px 0px;
+	text-align:center;
+	background-color:#231f20;
+	font-size:11px;
+	color:#ffffff;
+	transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s; /* Firefox 4 */
+	-webkit-transition: background-color 0.5s; /* Safari and Chrome */
+	-o-transition: background-color 0.5s; /* Opera */
+}
+a#switcher-reset:hover{
+	background-color:#e95937;
+}

@@ -1,0 +1,123 @@
+/* Woocommerce CSS File */
+.woocommerce #content h1, .woocommerce-page #content h1{font-size:28px; line-height:36px;}
+.woocommerce #content h2, .woocommerce-page #content h2{font-size:24px; line-height:32px;}
+.woocommerce #content h3, .woocommerce-page #content h3{font-size:18px; line-height:normal;}
+.woocommerce #content h4, .woocommerce-page #content h4{font-size:16px; line-height:normal;}
+.woocommerce #content h5, .woocommerce-page #content h5{font-size:15px; line-height:normal;}
+.woocommerce #content h6, .woocommerce-page #content h6{font-size:14px; line-height:normal;}
+body.novaro ul.products li.product{border-bottom:1px solid #e7e7e7; padding-bottom:15px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; text-align:center;}
+body.novaro ul.products li.product a img, body.novaro ul.products li.product a:hover img{
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	margin:0px;
+}
+body.novaro ul.products li.product h3{
+	padding:19px 10px 0px;
+	line-height:100%;
+	font-size:16px !important;
+	color:#333333;
+	letter-spacing:-1px;
+	text-align:center;
+	margin-bottom:12px;
+	transition: color 0.2s;
+	-moz-transition: color 0.2s; /* Firefox 4 */
+	-webkit-transition: color 0.2s; /* Safari and Chrome */
+	-o-transition: color 0.2s; /* Opera */
+}
+body.novaro ul.products li.product h3:hover{color:#e9581a;}
+body.novaro .products .star-rating{margin:0px auto 12px;}
+body.novaro .star-rating span{color:#ff8800;}
+body.novaro ul.products li.product .price{font-size:16px; color:#333; letter-spacing:-1px; font-weight:600; text-align:right; margin-bottom:12px; text-align:center;}
+body.novaro ul.products li.product .price ins, body.novaro ul.products li.product .price ins{color:#333;}
+
+body.novaro.woocommerce a.button, body.novaro.woocommerce button.button, body.novaro.woocommerce input.button, body.novaro.woocommerce #respond input#submit, body.novaro.woocommerce #content input.button, body.novaro.woocommerce-page a.button, body.novaro.woocommerce-page button.button, body.novaro.woocommerce-page input.button, body.novaro.woocommerce-page #respond input#submit, body.novaro.woocommerce-page #content input.button{
+	background:#fafafa;
+	color:#777;
+	font-weight:700;
+	font-size:12px;
+	text-transform:uppercase;
+	letter-spacing:-1px;
+	border:1px solid #e4e4e4;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	padding:12px 16px;
+	text-align:center;
+	margin:0px auto;
+	text-shadow:none;
+	-moz-text-shadow:none;
+	-webkit-text-shadow:none;
+}
+body.novaro.woocommerce a.button:hover, body.novaro.woocommerce button.button:hover, body.novaro.woocommerce input.button:hover, body.novaro.woocommerce #respond input#submit:hover, body.novaro.woocommerce #content input.button:hover, body.novaro.woocommerce-page a.button:hover, body.novaro.woocommerce-page button.button:hover, body.novaro.woocommerce-page input.button:hover, body.novaro.woocommerce-page #respond input#submit:hover, body.novaro.woocommerce-page #content input.button:hover{
+	color:#fff;
+	background:#e9581a;
+	border-color:#e9581a;
+}
+body.novaro ul.products li.product .button:before{display:inline-block;font-family:FontAwesome; margin-right:10px; content:"\f07a"}
+body.novaro ul.products li.product .button.loading:before, body.novaro ul.products li.product .button.added:before{content:"";}
+
+body.novaro div.product div.images img, body.novaro #content div.product div.images img{box-shadow:none; -moz-box-shadow:none; -webkit-box-shadow:none; border:1px solid #e6e6e6;}
+body.novaro div.product .product_title, body.novaro #content div.product .product_title{font-size:20px; line-height:28px; color:#333333; letter-spacing:-1px; margin-bottom:12px;}
+body.novaro div.product span.price, body.novaro div.product p.price, body.novaro #content div.product span.price, body.novaro #content div.product p.price{color: #555555; font-size: 20px; line-height:28px; font-weight:600; padding-bottom:6px; border-bottom:1px solid #ebebeb;}
+
+body.novaro a.button.alt, body.novaro button.button.alt, body.novaro input.button.alt, body.novaro #respond input#submit.alt, body.novaro #content input.button.alt{ background:#e9581a; color:#fff; border:1px solid #e9581a;}
+body.novaro a.button.alt:hover, body.novaro button.button.alt:hover, body.novaro input.button.alt:hover, body.novaro #respond input#submit.alt:hover, body.novaro #content input.button.alt:hover{ text-shadow:none; -moz-text-shadow:none; -webkit-text-shadow:none; color:#fff; background:#555555; border:1px solid #555555;} 
+body.novaro .quantity, body.novaro #content .quantity{width:auto;}
+body.novaro .quantity .minus, body.novaro #content .quantity .minus, body.novaro .quantity .plus, body.novaro #content .quantity .plus{
+	background: #f4f4f4;
+	background: -webkit-gradient(linear,left top,left bottom,from(#fefefe),to(#f4f4f4));
+	background: -webkit-linear-gradient(#fefefe,#f4f4f4);
+	background: -moz-linear-gradient(center top,#fefefe 0%,#f4f4f4 100%);
+	background: -moz-gradient(center top,#fefefe 0%,#f4f4f4 100%);
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	color:#555555;
+	position:static;
+	font-size:16px;
+	display:block;
+	height:37px;
+	width:28px;
+	float:left;
+	border:1px solid #ebebeb;
+	outline:none;
+}
+body.novaro .quantity .minus:hover, body.novaro #content .quantity .minus:hover, body.novaro .quantity .plus:hover, body.novaro #content .quantity .plus:hover{
+	background: -webkit-gradient(linear,left top,left bottom,from(#f4f4f4),to(#fefefe));
+	background: -webkit-linear-gradient(#f4f4f4,#fefefe);
+	background: -moz-linear-gradient(center top,#f4f4f4 0%,#fefefe 100%);
+	background: -moz-gradient(center top,#f4f4f4 0%,#fefefe 100%);
+	border:1px solid #ebebeb;
+}
+body.novaro .quantity input.qty, body.novaro #content .quantity input.qty{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border-color:#ebebeb;
+	border-width:1px 0px;
+	height:37px;
+}
+
+body.novaro div.product form.cart .variations td.value, body.novaro #content div.product form.cart .variations td.value{text-align:right;}
+
+body.novaro div.product .woocommerce-tabs ul.tabs, body.novaro #content div.product .woocommerce-tabs ul.tabs{border-left:0px; padding-left:6px;}
+body.novaro div.product .woocommerce-tabs ul.tabs li, body.novaro #content div.product .woocommerce-tabs ul.tabs li{border:1px solid #e4e4e4; background:#f7f7f7; font-size:14px; color:#777777; text-shadow:none; -moz-text-shadow:none; -webkit-text-shadow:none; box-shadow:none; -moz-box-shadow:none; -webkit-text-shadow:none; border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; padding:0px 20px;}
+
+body.novaro div.product .woocommerce-tabs ul.tabs li:before, body.novaro #content div.product .woocommerce-tabs ul.tabs li:before, body.novaro div.product .woocommerce-tabs ul.tabs li:after, body.novaro #content div.product .woocommerce-tabs ul.tabs li:after{box-shadow: none !important;}
+body.novaro div.product .woocommerce-tabs ul.tabs li a, body.novaro #content div.product .woocommerce-tabs ul.tabs li a{padding:0px; background:none; text-shadow:none; -webkit-text-shadow:none; -moz-text-shadow:none;}
+body.novaro .woocommerce-tabs .panel h2{ font-size:20px; line-height:28px;}
+
+body.novaro .related ul.products li.product, body.novaro .related ul li.product, body.novaro .upsells.products ul.products li.product, body.novaro .upsells.products ul li.product{width:23.5%;}
+
+body.novaro nav.woocommerce-pagination ul, body.novaro #content nav.woocommerce-pagination ul{border:0px; border-left:1px solid #e4e4e4;}
+body.novaro nav.woocommerce-pagination ul li, body.novaro #content nav.woocommerce-pagination ul li{border-right:0px;}
+body.novaro nav.woocommerce-pagination ul li a:focus, body.novaro #content nav.woocommerce-pagination ul li a:focus{border-width:1px 1px 1px 0px !important; border-color:#e4e4e4 !important; background-color:#fff; color:#777;}
+body.novaro nav.woocommerce-pagination ul li a, body.novaro nav.woocommerce-pagination ul li span, body.novaro #content nav.woocommerce-pagination ul li a, body.novaro #content nav.woocommerce-pagination ul li span{border-width:1px 1px 1px 0px !important; border-style:solid; border-color:#e4e4e4 !important; background-color:#fff; color:#777;}
+body.novaro nav.woocommerce-pagination ul li span.current, body.novaro nav.woocommerce-pagination ul li a:hover, body.novaro #content nav.woocommerce-pagination ul li span.current, body.novaro #content nav.woocommerce-pagination ul li a:hover, body.novaro nav.woocommerce-pagination ul li a:focus, body.novaro #content nav.woocommerce-pagination ul li a:focus{border-width:1px 1px 1px 0px !important; border-style:solid; border-color:#e9581a !important; background-color:#e9581a; color:#fff;}

@@ -1,0 +1,4449 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Skyestate\n"
+"POT-Creation-Date: 2015-03-04 13:38+0700\n"
+"PO-Revision-Date: 2015-03-04 13:39+0700\n"
+"Last-Translator: \n"
+"Language-Team: Novaro Studio <novaro.studio@gmail.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e\n"
+
+#: 404.php:12
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+
+#: archive-portofolio.php:104 loop.php:83 taxonomy-portfoliocat.php:55
+#: taxonomy-property_category.php:50 taxonomy-property_city.php:51
+#: taxonomy-property_purpose.php:49 template-portfolio.php:203
+#: template-property-search-result.php:83 template-property.php:144
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: archive-portofolio.php:105 loop.php:84 taxonomy-portfoliocat.php:56
+#: taxonomy-property_category.php:51 taxonomy-property_city.php:52
+#: taxonomy-property_purpose.php:50 template-portfolio.php:204
+#: template-property-search-result.php:84 template-property.php:145
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: attachment.php:19
+#, php-format
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr ""
+
+#: attachment.php:23
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: attachment.php:30
+#, php-format
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr ""
+
+#: attachment.php:40
+#, php-format
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:43
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:93 engine/theme-shortcodes.php:895 page.php:20
+msgid "Read More"
+msgstr ""
+
+#: attachment.php:94 page.php:21 single-peoplepost.php:71
+#: single-portofolio.php:16 single-propertys.php:130 single.php:120
+msgid "Pages:"
+msgstr ""
+
+#: attachment.php:95 page.php:23 single-peoplepost.php:72
+#: single-portofolio.php:17 single-propertys.php:328
+#: template-dashboard-list.php:216
+msgid "Edit"
+msgstr ""
+
+#: author.php:34
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: comments.php:18
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:41 comments.php:60
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:42 comments.php:61
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:80 single-peoplepost.php:81 single-propertys.php:241
+msgid "Name"
+msgstr ""
+
+#: comments.php:82 engine/theme-functions.php:1299
+#: engine/theme-metaboxes.php:843 engine/theme-shortcodes.php:1651
+#: single-peoplepost.php:83 single-propertys.php:243
+#: template-dashboard-profile.php:198
+msgid "Email"
+msgstr ""
+
+#: comments.php:84
+msgid "Website"
+msgstr ""
+
+#: comments.php:87
+msgid "Post a Comment"
+msgstr ""
+
+#: comments.php:88
+msgid "Submit"
+msgstr ""
+
+#: content-aside.php:33 content-audio.php:39 content-gallery.php:51
+#: content-image.php:48 content-link.php:46 content-quote.php:27
+#: content-video.php:39 content.php:35 single.php:103
+msgid "Sticky"
+msgstr ""
+
+#: content-aside.php:34 content-audio.php:40 content-gallery.php:52
+#: content-image.php:49 content-link.php:47 content-quote.php:28
+#: content-video.php:40 content.php:36
+msgid "No Comment"
+msgstr ""
+
+#: content-aside.php:34 content-audio.php:40 content-gallery.php:52
+#: content-image.php:49 content-link.php:47 content-quote.php:28
+#: content-video.php:40 content.php:36
+msgid "1 Comment"
+msgstr ""
+
+#: content-aside.php:34 content-audio.php:40 content-gallery.php:52
+#: content-image.php:49 content-link.php:47 content-quote.php:28
+#: content-video.php:40 content.php:36
+msgid "% Comments"
+msgstr ""
+
+#: content-aside.php:38 content-audio.php:44 content-gallery.php:56
+#: content-image.php:53 content-link.php:51 content-quote.php:32
+#: content-video.php:44 content.php:40
+msgid "Share"
+msgstr ""
+
+#: content-audio.php:28 content-gallery.php:40 content-image.php:37
+#: content-link.php:31 content-video.php:28 content.php:18
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-audio.php:29 content-gallery.php:41 content-image.php:38
+#: content-video.php:29 content.php:19 engine/theme-shortcodes.php:891
+#: single.php:100
+msgid "By"
+msgstr ""
+
+#: content-audio.php:30 content-gallery.php:42 content-image.php:39
+#: content-video.php:30 content.php:20 engine/theme-shortcodes.php:891
+msgid "At"
+msgstr ""
+
+#: engine/cp-init-brand.php:5
+msgid "Brands"
+msgstr ""
+
+#: engine/cp-init-brand.php:27
+msgid "Brand Categories"
+msgstr ""
+
+#: engine/cp-init-brand.php:28 engine/cp-init-people.php:26
+#: engine/cp-init-portfolio.php:34 engine/cp-init-property.php:35
+#: engine/cp-init-slider.php:25 engine/cp-init-testimonial.php:25
+#: template-dashboard-add.php:1159
+msgid "Category"
+msgstr ""
+
+#: engine/cp-init-brand.php:42 engine/cp-init-people.php:40
+#: engine/cp-init-portfolio.php:49 engine/cp-init-property.php:66
+#: engine/cp-init-slider.php:38 engine/cp-init-testimonial.php:38
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:145
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:200
+msgid "Title"
+msgstr ""
+
+#: engine/cp-init-brand.php:43 engine/cp-init-people.php:41
+#: engine/cp-init-portfolio.php:50 engine/cp-init-property.php:67
+#: engine/cp-init-slider.php:39 engine/cp-init-testimonial.php:39
+msgid "Images"
+msgstr ""
+
+#: engine/cp-init-brand.php:44 engine/cp-init-people.php:42
+#: engine/cp-init-portfolio.php:51 engine/cp-init-property.php:68
+#: engine/cp-init-slider.php:40 engine/cp-init-testimonial.php:40
+msgid "Author"
+msgstr ""
+
+#: engine/cp-init-brand.php:46 engine/cp-init-people.php:44
+#: engine/cp-init-portfolio.php:53 engine/cp-init-property.php:70
+#: engine/cp-init-slider.php:42 engine/cp-init-testimonial.php:42
+msgid "Categories"
+msgstr ""
+
+#: engine/cp-init-brand.php:48 engine/cp-init-people.php:46
+#: engine/cp-init-portfolio.php:55 engine/cp-init-property.php:74
+#: engine/cp-init-slider.php:44 engine/cp-init-testimonial.php:44
+msgid "Date"
+msgstr ""
+
+#: engine/cp-init-brand.php:67 engine/cp-init-people.php:65
+#: engine/cp-init-portfolio.php:74 engine/cp-init-property.php:95
+#: engine/cp-init-slider.php:63 engine/cp-init-testimonial.php:63
+msgid "No Featured Image"
+msgstr ""
+
+#: engine/cp-init-brand.php:100 engine/cp-init-people.php:98
+#: engine/cp-init-portfolio.php:107 engine/cp-init-property.php:158
+#: engine/cp-init-slider.php:96 engine/cp-init-testimonial.php:96
+msgid "View All"
+msgstr ""
+
+#: engine/cp-init-invoices.php:8 engine/cp-init-invoices.php:9
+msgid "Invoices"
+msgstr ""
+
+#: engine/cp-init-invoices.php:10
+msgid "Add New Invoice"
+msgstr ""
+
+#: engine/cp-init-invoices.php:11
+msgid "Add Invoice"
+msgstr ""
+
+#: engine/cp-init-invoices.php:12 engine/cp-init-invoices.php:13
+msgid "Edit Invoice"
+msgstr ""
+
+#: engine/cp-init-invoices.php:14
+msgid "New Invoice"
+msgstr ""
+
+#: engine/cp-init-invoices.php:15 engine/cp-init-invoices.php:16
+msgid "View Invoices"
+msgstr ""
+
+#: engine/cp-init-invoices.php:17
+msgid "Search Invoices"
+msgstr ""
+
+#: engine/cp-init-invoices.php:18 engine/cp-init-invoices.php:19
+msgid "No Invoices found"
+msgstr ""
+
+#: engine/cp-init-invoices.php:20
+msgid "Parent Invoice"
+msgstr ""
+
+#: engine/cp-init-invoices.php:42 engine/theme-metaboxes.php:611
+#: single-propertys.php:135 template-dashboard-list.php:250
+msgid "Price"
+msgstr ""
+
+#: engine/cp-init-invoices.php:43 engine/theme-metaboxes.php:1034
+msgid "Billing For"
+msgstr ""
+
+#: engine/cp-init-invoices.php:44
+msgid "Invoice Type"
+msgstr ""
+
+#: engine/cp-init-invoices.php:45
+msgid "Purchased by User"
+msgstr ""
+
+#: engine/cp-init-invoices.php:192 template-dashboard-list.php:253
+msgid "Total"
+msgstr ""
+
+#: engine/cp-init-invoices.php:195
+msgid "Invoice Paid. Ammount paid: "
+msgstr ""
+
+#: engine/cp-init-invoices.php:197
+msgid "Invoice Issued.Not Paid "
+msgstr ""
+
+#: engine/cp-init-membership.php:8 engine/cp-init-membership.php:9
+msgid "Membership Packages"
+msgstr ""
+
+#: engine/cp-init-membership.php:10
+msgid "Add New Membership Package"
+msgstr ""
+
+#: engine/cp-init-membership.php:11
+msgid "Add Membership Packages"
+msgstr ""
+
+#: engine/cp-init-membership.php:12
+msgid "Edit Membership Packages"
+msgstr ""
+
+#: engine/cp-init-membership.php:13
+msgid "Edit Membership Package"
+msgstr ""
+
+#: engine/cp-init-membership.php:14
+msgid "New Membership Packages"
+msgstr ""
+
+#: engine/cp-init-membership.php:15 engine/cp-init-membership.php:16
+msgid "View Membership Packages"
+msgstr ""
+
+#: engine/cp-init-membership.php:17
+msgid "Search Membership Packages"
+msgstr ""
+
+#: engine/cp-init-membership.php:18 engine/cp-init-membership.php:19
+msgid "No Membership Packages found"
+msgstr ""
+
+#: engine/cp-init-membership.php:20
+msgid "Parent Membership Package"
+msgstr ""
+
+#: engine/cp-init-membership.php:100 engine/cp-init-membership.php:139
+msgid "Your Package"
+msgstr ""
+
+#: engine/cp-init-membership.php:103 engine/cp-init-membership.php:111
+#: engine/cp-init-membership.php:141
+msgid "Listings Included"
+msgstr ""
+
+#: engine/cp-init-membership.php:104 engine/cp-init-membership.php:108
+#: engine/cp-init-membership.php:143 engine/cp-init-membership.php:151
+msgid "  unlimited listings"
+msgstr ""
+
+#: engine/cp-init-membership.php:107 engine/cp-init-membership.php:115
+#: engine/cp-init-membership.php:149
+msgid "Listings remaining"
+msgstr ""
+
+#: engine/cp-init-membership.php:120 engine/cp-init-membership.php:159
+msgid "Featured Included"
+msgstr ""
+
+#: engine/cp-init-membership.php:124 engine/cp-init-membership.php:163
+msgid "Featured Remaining"
+msgstr ""
+
+#: engine/cp-init-membership.php:128 engine/cp-init-membership.php:167
+msgid "Ends On"
+msgstr ""
+
+#: engine/cp-init-membership.php:139
+msgid "Free Membership"
+msgstr ""
+
+#: engine/cp-init-membership.php:195
+msgid "Your Package: "
+msgstr ""
+
+#: engine/cp-init-membership.php:198
+msgid "  Unlimited listings"
+msgstr ""
+
+#: engine/cp-init-membership.php:200 engine/cp-init-membership.php:218
+msgid " Listings"
+msgstr ""
+
+#: engine/cp-init-membership.php:201
+msgid " remaining "
+msgstr ""
+
+#: engine/cp-init-membership.php:204 engine/cp-init-membership.php:223
+msgid " Featured listings"
+msgstr ""
+
+#: engine/cp-init-membership.php:205 engine/cp-init-membership.php:219
+msgid " remaining"
+msgstr ""
+
+#: engine/cp-init-membership.php:213
+msgid "Your Package: Free Membership  "
+msgstr ""
+
+#: engine/cp-init-membership.php:216
+msgid "unlimited listings"
+msgstr ""
+
+#: engine/cp-init-membership.php:224
+msgid "  remaining"
+msgstr ""
+
+#: engine/cp-init-membership.php:431
+msgid "Select package"
+msgstr ""
+
+#: engine/cp-init-membership.php:510
+msgid "membership payment on "
+msgstr ""
+
+#: engine/cp-init-membership.php:515 engine/cp-init-membership.php:518
+msgid "Membership Payment"
+msgstr ""
+
+#: engine/cp-init-membership.php:580 template-dashboard-profile.php:91
+msgid " package on "
+msgstr ""
+
+#: engine/cp-init-membership.php:648
+msgid "Account Downgraded,"
+msgstr ""
+
+#: engine/cp-init-membership.php:649
+#, php-format
+msgid ""
+"Hello, You downgraded your subscription on  %s. Because your listings number "
+"was greater than what the actual package offers, we set the status of all "
+"your listings to \"expired\". You will need to choose which listings you "
+"want live and send them again for approval. Thank you!"
+msgstr ""
+
+#: engine/cp-init-membership.php:652
+#, php-format
+msgid "[%s] Account Downgraded"
+msgstr ""
+
+#: engine/cp-init-membership.php:703
+msgid "Membership Cancelled,"
+msgstr ""
+
+#: engine/cp-init-membership.php:704
+#, php-format
+msgid ""
+"Your subscription on %s was cancelled because it expired or the recurring "
+"payment from Paypal was not processed. All your listings are no longer "
+"visible for our visitors but remain in your account. Thank you. "
+msgstr ""
+
+#: engine/cp-init-membership.php:707
+#, php-format
+msgid "[%s] Membership Cancelled"
+msgstr ""
+
+#: engine/cp-init-membership.php:772 engine/theme-functions.php:1908
+#: template-dashboard-add.php:504 template-dashboard-add.php:805
+msgid "Hi there,"
+msgstr ""
+
+#: engine/cp-init-membership.php:773
+#, php-format
+msgid "Your new membership on  %s is activated! You should go check it out."
+msgstr ""
+
+#: engine/cp-init-membership.php:778
+#, php-format
+msgid "[%s] Membership Activated"
+msgstr ""
+
+#: engine/cp-init-people.php:5
+msgid "People"
+msgstr ""
+
+#: engine/cp-init-people.php:26
+msgid "People Categories"
+msgstr ""
+
+#: engine/cp-init-portfolio.php:5
+msgid "Portfolio"
+msgstr ""
+
+#: engine/cp-init-portfolio.php:33 engine/theme-metaboxes.php:424
+msgid "Portfolio Categories"
+msgstr ""
+
+#: engine/cp-init-property.php:5
+msgid "Properties"
+msgstr ""
+
+#: engine/cp-init-property.php:34 engine/theme-metaboxes.php:470
+msgid "Property Categories"
+msgstr ""
+
+#: engine/cp-init-property.php:42
+msgid "Property Purposes"
+msgstr ""
+
+#: engine/cp-init-property.php:43 engine/cp-init-property.php:71
+msgid "Purposes"
+msgstr ""
+
+#: engine/cp-init-property.php:50
+msgid "Property City"
+msgstr ""
+
+#: engine/cp-init-property.php:51 engine/cp-init-property.php:72
+msgid "Cities"
+msgstr ""
+
+#: engine/cp-init-property.php:212 engine/cp-init-property.php:284
+#: engine/cp-init-property.php:380
+msgid "Thumbnail"
+msgstr ""
+
+#: engine/cp-init-property.php:216 engine/cp-init-property.php:289
+msgid "Upload/Add image"
+msgstr ""
+
+#: engine/cp-init-property.php:217 engine/cp-init-property.php:290
+msgid "Remove image"
+msgstr ""
+
+#: engine/cp-init-property.php:240 engine/cp-init-property.php:309
+msgid "Choose an image"
+msgstr ""
+
+#: engine/cp-init-property.php:242 engine/cp-init-property.php:311
+msgid "Use image"
+msgstr ""
+
+#: engine/cp-init-property.php:356
+msgid "Image"
+msgstr ""
+
+#: engine/cp-init-slider.php:5
+msgid "Sliders"
+msgstr ""
+
+#: engine/cp-init-slider.php:25
+msgid "Slider Categories"
+msgstr ""
+
+#: engine/cp-init-testimonial.php:5
+msgid "Testimonials"
+msgstr ""
+
+#: engine/cp-init-testimonial.php:25
+msgid "Testimonial Categories"
+msgstr ""
+
+#: engine/footer-functions.php:11
+msgid "Copyright"
+msgstr ""
+
+#: engine/footer-functions.php:36
+msgid "Designed by"
+msgstr ""
+
+#: engine/footer-functions.php:37
+msgid "http://www.novarostudio.com"
+msgstr ""
+
+#: engine/footer-functions.php:37
+msgid "Novaro Studio"
+msgstr ""
+
+#: engine/header-functions.php:23
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: engine/header-functions.php:118
+msgid "Search product..."
+msgstr ""
+
+#: engine/header-functions.php:121
+msgid "Search..."
+msgstr ""
+
+#: engine/header-functions.php:177
+msgid "Items"
+msgstr ""
+
+#: engine/header-functions.php:235 engine/theme-shortcodes.php:1616
+msgid "Login"
+msgstr ""
+
+#: engine/header-functions.php:238 engine/theme-shortcodes.php:1656
+msgid "Register"
+msgstr ""
+
+#: engine/header-functions.php:240
+msgid "Logout"
+msgstr ""
+
+#: engine/header-functions.php:241
+msgid "My Account"
+msgstr ""
+
+#: engine/sidebar-init.php:4 framework/sidebargenerator/nvr-form.php:219
+#: framework/sidebargenerator/nvr-sidebar.php:14
+msgid "Sidebar"
+msgstr ""
+
+#: engine/sidebar-init.php:6
+msgid "Located at the left/right side of all pages and post."
+msgstr ""
+
+#: engine/sidebar-init.php:14
+msgid "Footer1 Sidebar"
+msgstr ""
+
+#: engine/sidebar-init.php:16
+msgid "Located at the footer column 1."
+msgstr ""
+
+#: engine/sidebar-init.php:24
+msgid "Footer2 Sidebar"
+msgstr ""
+
+#: engine/sidebar-init.php:26
+msgid "Located at the footer column 2."
+msgstr ""
+
+#: engine/sidebar-init.php:34
+msgid "Footer3 Sidebar"
+msgstr ""
+
+#: engine/sidebar-init.php:36
+msgid "Located at the footer column 3."
+msgstr ""
+
+#: engine/sidebar-init.php:44
+msgid "Footer4 Sidebar"
+msgstr ""
+
+#: engine/sidebar-init.php:46
+msgid "Located at the footer column 4."
+msgstr ""
+
+#: engine/sidebar-init.php:62
+msgid "A Custom sidebar created from Sidebar Manager. It's called"
+msgstr ""
+
+#: engine/theme-functions.php:192 engine/theme-functions.php:197
+#: engine/theme-functions.php:488 engine/theme-functions.php:493
+msgid "More"
+msgstr ""
+
+#: engine/theme-functions.php:345
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: engine/theme-functions.php:350
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: engine/theme-functions.php:351 engine/theme-functions.php:374
+msgid "(Edit)"
+msgstr ""
+
+#: engine/theme-functions.php:358
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: engine/theme-functions.php:372
+msgid "Pingback:"
+msgstr ""
+
+#: engine/theme-functions.php:615
+msgid "Bed"
+msgstr ""
+
+#: engine/theme-functions.php:618
+msgid "Bath"
+msgstr ""
+
+#: engine/theme-functions.php:1247
+msgid "Your Name"
+msgstr ""
+
+#: engine/theme-functions.php:1248
+msgid "The name field is empty !"
+msgstr ""
+
+#: engine/theme-functions.php:1256
+msgid "Your Email"
+msgstr ""
+
+#: engine/theme-functions.php:1258
+msgid "The email field is empty"
+msgstr ""
+
+#: engine/theme-functions.php:1261 engine/theme-functions.php:1381
+msgid "The email doesn't look right !"
+msgstr ""
+
+#: engine/theme-functions.php:1271
+msgid "Contact form from "
+msgstr ""
+
+#: engine/theme-functions.php:1275
+msgid "Your Message"
+msgstr ""
+
+#: engine/theme-functions.php:1276
+msgid "Your message is empty !"
+msgstr ""
+
+#: engine/theme-functions.php:1299
+msgid "Client Name"
+msgstr ""
+
+#: engine/theme-functions.php:1299 engine/theme-init.php:122
+#: single-peoplepost.php:82 single-propertys.php:242
+#: template-dashboard-profile.php:203
+msgid "Phone"
+msgstr ""
+
+#: engine/theme-functions.php:1299
+msgid "Subject"
+msgstr ""
+
+#: engine/theme-functions.php:1299 single-peoplepost.php:86
+#: single-propertys.php:245
+msgid "Message"
+msgstr ""
+
+#: engine/theme-functions.php:1300
+msgid "Message sent from "
+msgstr ""
+
+#: engine/theme-functions.php:1308
+msgid "The message was sent !"
+msgstr ""
+
+#: engine/theme-functions.php:1331
+msgid "Username and/or Password field is empty!"
+msgstr ""
+
+#: engine/theme-functions.php:1343
+msgid "Wrong username or password!"
+msgstr ""
+
+#: engine/theme-functions.php:1345
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: engine/theme-functions.php:1368
+msgid "Invalid username( *do not use special characters or spaces ) "
+msgstr ""
+
+#: engine/theme-functions.php:1376
+msgid "Username and/or Email field is empty!"
+msgstr ""
+
+#: engine/theme-functions.php:1387
+msgid "The email's domain doesn't look right."
+msgstr ""
+
+#: engine/theme-functions.php:1394
+msgid "Username already exists.  Please choose a new one."
+msgstr ""
+
+#: engine/theme-functions.php:1409
+msgid "An email with the generated password was sent!"
+msgstr ""
+
+#: engine/theme-functions.php:1421
+msgid "Email already exists.  Please choose a new one."
+msgstr ""
+
+#: engine/theme-functions.php:1469
+msgid "days"
+msgstr ""
+
+#: engine/theme-functions.php:1472
+msgid "weeks"
+msgstr ""
+
+#: engine/theme-functions.php:1475
+msgid "months"
+msgstr ""
+
+#: engine/theme-functions.php:1478
+msgid "year"
+msgstr ""
+
+#: engine/theme-functions.php:1531
+msgid "The email was not saved because it is used by another user.</br>"
+msgstr ""
+
+#: engine/theme-functions.php:1541
+msgid "Profile updated"
+msgstr ""
+
+#: engine/theme-functions.php:1565
+msgid "Email field is empty!"
+msgstr ""
+
+#: engine/theme-functions.php:1602
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: engine/theme-functions.php:1604
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: engine/theme-functions.php:1605
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: engine/theme-functions.php:1606
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: engine/theme-functions.php:1608
+msgid "Password Reset Request"
+msgstr ""
+
+#: engine/theme-functions.php:1609
+msgid "Email failed to send for some unknown reason."
+msgstr ""
+
+#: engine/theme-functions.php:1613
+msgid "We have just sent you an email with Password reset instructions."
+msgstr ""
+
+#: engine/theme-functions.php:1793 template-dashboard-list.php:287
+#: template-dashboard-list.php:305
+msgid "Pay with Credit Card"
+msgstr ""
+
+#: engine/theme-functions.php:1794
+msgid "Package Payment"
+msgstr ""
+
+#: engine/theme-functions.php:1823
+msgid "The new password is blank"
+msgstr ""
+
+#: engine/theme-functions.php:1828
+msgid "Passwords do not match"
+msgstr ""
+
+#: engine/theme-functions.php:1835
+msgid "Password Updated"
+msgstr ""
+
+#: engine/theme-functions.php:1844
+msgid "Booking Confirmed "
+msgstr ""
+
+#: engine/theme-functions.php:1845
+msgid "Your booking made on "
+msgstr ""
+
+#: engine/theme-functions.php:1848
+msgid "Booking Confirmed on "
+msgstr ""
+
+#: engine/theme-functions.php:1849
+msgid "Somebody confirmed a booking on "
+msgstr ""
+
+#: engine/theme-functions.php:1852
+msgid "New Message on "
+msgstr ""
+
+#: engine/theme-functions.php:1853
+msgid "You have a new message on "
+msgstr ""
+
+#: engine/theme-functions.php:1856
+msgid "New Booking Request on "
+msgstr ""
+
+#: engine/theme-functions.php:1857
+msgid "You have received a new booking request on "
+msgstr ""
+
+#: engine/theme-functions.php:1860
+msgid "New Invoice on "
+msgstr ""
+
+#: engine/theme-functions.php:1861
+msgid "An invoice was generated for your booking request on "
+msgstr ""
+
+#: engine/theme-functions.php:1864
+msgid "Booking Request Rejected on "
+msgstr ""
+
+#: engine/theme-functions.php:1865
+msgid "One of your booking requests sent on  "
+msgstr ""
+
+#: engine/theme-functions.php:1868
+msgid "Booking Request Cancelled on "
+msgstr ""
+
+#: engine/theme-functions.php:1869
+msgid "One of the unconfirmed booking requests you received on "
+msgstr ""
+
+#: engine/theme-functions.php:1911
+#, php-format
+msgid "[%s] New Feature Upgrade "
+msgstr ""
+
+#: engine/theme-functions.php:1912
+#, php-format
+msgid "You have a new featured submission on  %s! You should go check it out."
+msgstr ""
+
+#: engine/theme-functions.php:1915
+#, php-format
+msgid "[%s] New Paid Submission"
+msgstr ""
+
+#: engine/theme-functions.php:1916
+#, php-format
+msgid "You have a new paid submission on  %s! You should go check it out."
+msgstr ""
+
+#: engine/theme-init.php:41
+msgid "Main Menu"
+msgstr ""
+
+#: engine/theme-init.php:44
+msgid "Secondary Menu"
+msgstr ""
+
+#: engine/theme-init.php:120
+msgid "User Group"
+msgstr ""
+
+#: engine/theme-init.php:121
+msgid "UserB Pass"
+msgstr ""
+
+#: engine/theme-init.php:123 template-dashboard-profile.php:208
+msgid "Mobile"
+msgstr ""
+
+#: engine/theme-init.php:124 engine/theme-metaboxes.php:850
+#: template-dashboard-profile.php:214
+msgid "Skype"
+msgstr ""
+
+#: engine/theme-init.php:125 template-dashboard-profile.php:219
+msgid "Title/Position"
+msgstr ""
+
+#: engine/theme-init.php:126
+msgid "Picture Url"
+msgstr ""
+
+#: engine/theme-init.php:127
+msgid "Package Id"
+msgstr ""
+
+#: engine/theme-init.php:128
+msgid "Package Activation"
+msgstr ""
+
+#: engine/theme-init.php:129
+msgid "Listings available"
+msgstr ""
+
+#: engine/theme-init.php:130
+msgid "Featured Listings available"
+msgstr ""
+
+#: engine/theme-init.php:131
+msgid "Paypal Recuring Profile"
+msgstr ""
+
+#: engine/theme-init.php:132
+msgid "User Agent Id"
+msgstr ""
+
+#: engine/theme-init.php:146
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:491
+msgid "Font Color"
+msgstr ""
+
+#: engine/theme-init.php:148
+msgid "Select font color"
+msgstr ""
+
+#: engine/theme-init.php:153
+msgid "Custom Background Color"
+msgstr ""
+
+#: engine/theme-init.php:155
+msgid "Select backgound color for your row"
+msgstr ""
+
+#: engine/theme-init.php:160
+msgid "Padding"
+msgstr ""
+
+#: engine/theme-init.php:162 engine/theme-init.php:169
+#: engine/theme-init.php:176
+msgid ""
+"You can use px, em, %, etc. or enter just number and it will use pixels."
+msgstr ""
+
+#: engine/theme-init.php:167
+msgid "Top margin"
+msgstr ""
+
+#: engine/theme-init.php:174
+msgid "Bottom margin"
+msgstr ""
+
+#: engine/theme-init.php:181
+msgid "Background Image"
+msgstr ""
+
+#: engine/theme-init.php:183
+msgid "Select background image for your row"
+msgstr ""
+
+#: engine/theme-init.php:187
+#: framework/ReduxCore/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: engine/theme-init.php:190 framework/ReduxCore/framework.php:2063
+msgid "Default"
+msgstr ""
+
+#: engine/theme-init.php:191
+msgid "Cover"
+msgstr ""
+
+#: engine/theme-init.php:192
+msgid "Contain"
+msgstr ""
+
+#: engine/theme-init.php:193
+msgid "No Repeat"
+msgstr ""
+
+#: engine/theme-init.php:195
+msgid "Select how a background image will be repeated"
+msgstr ""
+
+#: engine/theme-init.php:200
+msgid "Extra class name"
+msgstr ""
+
+#: engine/theme-init.php:202
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: engine/theme-init.php:212
+msgid "Row Type"
+msgstr ""
+
+#: engine/theme-init.php:223
+msgid "Anchor ID"
+msgstr ""
+
+#: engine/theme-init.php:230
+msgid "Use Video background?"
+msgstr ""
+
+#: engine/theme-init.php:244
+msgid "Section Type"
+msgstr ""
+
+#: engine/theme-init.php:255
+msgid "Video overlay"
+msgstr ""
+
+#: engine/theme-init.php:256
+msgid "Use transparent overlay over video?"
+msgstr ""
+
+#: engine/theme-init.php:264
+msgid "Video background (webm) file url"
+msgstr ""
+
+#: engine/theme-init.php:273
+msgid "Video background (mp4) file url"
+msgstr ""
+
+#: engine/theme-init.php:282
+msgid "Video background (ogv) file url"
+msgstr ""
+
+#: engine/theme-init.php:291
+msgid "Video preview image"
+msgstr ""
+
+#: engine/theme-init.php:425
+#: framework/classes/class-tgm-plugin-activation.php:196
+msgid "Install Required Plugins"
+msgstr ""
+
+#: engine/theme-init.php:426
+#: framework/classes/class-tgm-plugin-activation.php:197
+msgid "Install Plugins"
+msgstr ""
+
+#: engine/theme-init.php:427
+#: framework/classes/class-tgm-plugin-activation.php:198
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: engine/theme-init.php:428
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: engine/theme-init.php:439
+#: framework/classes/class-tgm-plugin-activation.php:210
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: engine/theme-init.php:440
+#: framework/classes/class-tgm-plugin-activation.php:212
+#: framework/classes/class-tgm-plugin-activation.php:1951
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: engine/theme-init.php:441
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: engine/theme-metaboxes.php:26
+msgid "None"
+msgstr ""
+
+#: engine/theme-metaboxes.php:37 slider-maps.php:162
+#: widgets/nvr-property-search.php:137
+msgid "Normal"
+msgstr ""
+
+#: engine/theme-metaboxes.php:145 template-dashboard-add.php:983
+msgid "Select Country"
+msgstr ""
+
+#: engine/theme-metaboxes.php:180
+msgid "Day"
+msgstr ""
+
+#: engine/theme-metaboxes.php:181
+msgid "Week"
+msgstr ""
+
+#: engine/theme-metaboxes.php:182
+msgid "Month"
+msgstr ""
+
+#: engine/theme-metaboxes.php:183
+msgid "Year"
+msgstr ""
+
+#: engine/theme-metaboxes.php:187
+msgid "Listing"
+msgstr ""
+
+#: engine/theme-metaboxes.php:188 template-dashboard-list.php:358
+#: template-dashboard-list.php:359
+msgid "Upgrade to Featured"
+msgstr ""
+
+#: engine/theme-metaboxes.php:189
+msgid "Publish Listing with Featured"
+msgstr ""
+
+#: engine/theme-metaboxes.php:190
+msgid "Package"
+msgstr ""
+
+#: engine/theme-metaboxes.php:194
+msgid "One Time"
+msgstr ""
+
+#: engine/theme-metaboxes.php:195
+msgid "Recurring"
+msgstr ""
+
+#: engine/theme-metaboxes.php:204
+msgid "Post Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:211 engine/theme-metaboxes.php:252
+#: engine/theme-metaboxes.php:509 engine/theme-metaboxes.php:568
+#: engine/theme-metaboxes.php:821 engine/theme-metaboxes.php:1094
+msgid "Layout"
+msgstr ""
+
+#: engine/theme-metaboxes.php:212 engine/theme-metaboxes.php:253
+#: engine/theme-metaboxes.php:510 engine/theme-metaboxes.php:569
+#: engine/theme-metaboxes.php:1095
+msgid ""
+"Select the layout you want on this specific post/page. Overrides default "
+"site layout."
+msgstr ""
+
+#: engine/theme-metaboxes.php:219
+msgid "External URL"
+msgstr ""
+
+#: engine/theme-metaboxes.php:220
+msgid "Input your external link in here. if you use \"Link\" format."
+msgstr ""
+
+#: engine/theme-metaboxes.php:226
+msgid "Audio File URL"
+msgstr ""
+
+#: engine/theme-metaboxes.php:227
+msgid "Input your audio file URL in here. "
+msgstr ""
+
+#: engine/theme-metaboxes.php:233
+msgid "Video File URL / Video Link"
+msgstr ""
+
+#: engine/theme-metaboxes.php:234
+msgid "Input your video file URL or video link like youtube or vimeo in here. "
+msgstr ""
+
+#: engine/theme-metaboxes.php:245
+msgid "Page Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:260
+msgid "Disable Page Title"
+msgstr ""
+
+#: engine/theme-metaboxes.php:261
+msgid "Choose 'Yes' if you want to remove the page title."
+msgstr ""
+
+#: engine/theme-metaboxes.php:268 engine/theme-options.php:567
+msgid "Background Header"
+msgstr ""
+
+#: engine/theme-metaboxes.php:269
+msgid ""
+"Input the image URL in this textbox if you want to change the background "
+"image on the header."
+msgstr ""
+
+#: engine/theme-metaboxes.php:275
+msgid "Background Color Maincontent"
+msgstr ""
+
+#: engine/theme-metaboxes.php:276
+msgid ""
+"Input the hexcolor in this textbox if you want to change the background "
+"color of your content."
+msgstr ""
+
+#: engine/theme-metaboxes.php:282
+msgid "Page Description"
+msgstr ""
+
+#: engine/theme-metaboxes.php:283
+msgid "Input your own page description here."
+msgstr ""
+
+#: engine/theme-metaboxes.php:293
+msgid "Sidebar Option"
+msgstr ""
+
+#: engine/theme-metaboxes.php:300
+msgid "Registered Sidebar"
+msgstr ""
+
+#: engine/theme-metaboxes.php:301
+msgid "Please choose the sidebar for this page"
+msgstr ""
+
+#: engine/theme-metaboxes.php:312
+msgid "Page Slider Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:319 engine/theme-metaboxes.php:785
+msgid "Enable Slider"
+msgstr ""
+
+#: engine/theme-metaboxes.php:320 engine/theme-metaboxes.php:786
+msgid "Choose 'On' if you want to show the slider."
+msgstr ""
+
+#: engine/theme-metaboxes.php:327
+msgid "Slider Type"
+msgstr ""
+
+#: engine/theme-metaboxes.php:328
+msgid "Choose the type of the slider"
+msgstr ""
+
+#: engine/theme-metaboxes.php:335
+msgid "Slider Category"
+msgstr ""
+
+#: engine/theme-metaboxes.php:336
+msgid "You need to select the slider category to make the slider works."
+msgstr ""
+
+#: engine/theme-metaboxes.php:342 engine/theme-metaboxes.php:793
+msgid "External Slider Shortcode"
+msgstr ""
+
+#: engine/theme-metaboxes.php:343
+msgid ""
+"You can put the layerslider or revolution slider shortcode in here. It will "
+"overwrite the slider category."
+msgstr ""
+
+#: engine/theme-metaboxes.php:349
+msgid "Number of Pins in Slider Maps"
+msgstr ""
+
+#: engine/theme-metaboxes.php:350
+msgid ""
+"Please input the number of pins that you want to show (For Slider Maps type "
+"only). "
+msgstr ""
+
+#: engine/theme-metaboxes.php:356 engine/theme-metaboxes.php:730
+msgid "Zoom"
+msgstr ""
+
+#: engine/theme-metaboxes.php:357 engine/theme-metaboxes.php:731
+msgid "You can input the custom zoom value for the maps in here."
+msgstr ""
+
+#: engine/theme-metaboxes.php:367
+msgid "Page Blog Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:374
+msgid "Blog Categories"
+msgstr ""
+
+#: engine/theme-metaboxes.php:375
+msgid "You need to tick the blog categories to make the template blog works."
+msgstr ""
+
+#: engine/theme-metaboxes.php:381
+msgid "Blog Type"
+msgstr ""
+
+#: engine/theme-metaboxes.php:382
+msgid "Choose the type of the blog that you want to show."
+msgstr ""
+
+#: engine/theme-metaboxes.php:389 engine/theme-options.php:916
+msgid "Use Infinite Scrolls?"
+msgstr ""
+
+#: engine/theme-metaboxes.php:390
+msgid "Choose 'On' if you want to use infinite scrolls."
+msgstr ""
+
+#: engine/theme-metaboxes.php:401
+msgid "Page Portfolio Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:408
+msgid "Portfolio Type"
+msgstr ""
+
+#: engine/theme-metaboxes.php:409
+msgid "Select the type of your portfolio."
+msgstr ""
+
+#: engine/theme-metaboxes.php:416
+msgid "Portfolio Container"
+msgstr ""
+
+#: engine/theme-metaboxes.php:417
+msgid "Select the type of container for your portfolio."
+msgstr ""
+
+#: engine/theme-metaboxes.php:425
+msgid ""
+"Select more than one portfolio category to make the portfolio filter works."
+msgstr ""
+
+#: engine/theme-metaboxes.php:431
+msgid "Use Auto Load More?"
+msgstr ""
+
+#: engine/theme-metaboxes.php:432
+msgid "Tick this checkbox if you want to use a Load More functionality."
+msgstr ""
+
+#: engine/theme-metaboxes.php:438
+msgid "Portfolio Showposts"
+msgstr ""
+
+#: engine/theme-metaboxes.php:439
+msgid "Input the number of portfolio items that you want to show per page."
+msgstr ""
+
+#: engine/theme-metaboxes.php:445
+msgid "Portfolio Order By"
+msgstr ""
+
+#: engine/theme-metaboxes.php:446
+msgid ""
+"(optional). Sort retrieved portfolio items by parameter. Defaults to 'date'"
+msgstr ""
+
+#: engine/theme-metaboxes.php:452
+msgid "Portfolio Order"
+msgstr ""
+
+#: engine/theme-metaboxes.php:453
+msgid ""
+"(optional). Designates the ascending or descending order of the 'Portfolio "
+"Order By' parameter. Defaults to 'DESC'."
+msgstr ""
+
+#: engine/theme-metaboxes.php:463
+msgid "Page Property Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:471
+msgid ""
+"Select more than one property category to make the property filter works."
+msgstr ""
+
+#: engine/theme-metaboxes.php:477
+msgid "Property Showposts"
+msgstr ""
+
+#: engine/theme-metaboxes.php:478
+msgid "Input the number of property items that you want to show per page."
+msgstr ""
+
+#: engine/theme-metaboxes.php:484
+msgid "Property Order By"
+msgstr ""
+
+#: engine/theme-metaboxes.php:485
+msgid ""
+"(optional). Sort retrieved property items by parameter. Defaults to 'date'"
+msgstr ""
+
+#: engine/theme-metaboxes.php:491
+msgid "Property Order"
+msgstr ""
+
+#: engine/theme-metaboxes.php:492
+msgid ""
+"(optional). Designates the ascending or descending order of the 'Property "
+"Order By' parameter. Defaults to 'DESC'."
+msgstr ""
+
+#: engine/theme-metaboxes.php:502
+msgid "Portfolio Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:517
+msgid "Image Size"
+msgstr ""
+
+#: engine/theme-metaboxes.php:518
+msgid "Select the image size for your portfolio item."
+msgstr ""
+
+#: engine/theme-metaboxes.php:525
+msgid "Custom Thumbnail"
+msgstr ""
+
+#: engine/theme-metaboxes.php:526 engine/theme-metaboxes.php:920
+msgid ""
+"(optional). You can input the custom image URL to override the 'Set Featured "
+"Image'"
+msgstr ""
+
+#: engine/theme-metaboxes.php:532 engine/theme-metaboxes.php:894
+#: engine/theme-metaboxes.php:912
+msgid "External Link"
+msgstr ""
+
+#: engine/theme-metaboxes.php:533
+msgid ""
+"(optional). You can input the URL if you want to link the portfolio item to "
+"another website."
+msgstr ""
+
+#: engine/theme-metaboxes.php:543
+msgid "Portfolio Gallery"
+msgstr ""
+
+#: engine/theme-metaboxes.php:550
+msgid "Portfolio Images Gallery"
+msgstr ""
+
+#: engine/theme-metaboxes.php:551
+msgid "You can select the images for your portfolio from here."
+msgstr ""
+
+#: engine/theme-metaboxes.php:561
+msgid "Property Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:576
+msgid "Featured Property?"
+msgstr ""
+
+#: engine/theme-metaboxes.php:577
+msgid "Select Yes if you want this property to be featured."
+msgstr ""
+
+#: engine/theme-metaboxes.php:584 engine/theme-options.php:662
+msgid "Property Status"
+msgstr ""
+
+#: engine/theme-metaboxes.php:585
+msgid "Select the status of the property."
+msgstr ""
+
+#: engine/theme-metaboxes.php:592
+msgid "Agent responsible"
+msgstr ""
+
+#: engine/theme-metaboxes.php:593
+msgid "Select the agent of the property."
+msgstr ""
+
+#: engine/theme-metaboxes.php:604
+msgid "Property Detail"
+msgstr ""
+
+#: engine/theme-metaboxes.php:612
+msgid "Input the price of your property"
+msgstr ""
+
+#: engine/theme-metaboxes.php:618
+msgid "Price Label"
+msgstr ""
+
+#: engine/theme-metaboxes.php:619
+msgid "Input after price label. Example: per month"
+msgstr ""
+
+#: engine/theme-metaboxes.php:625
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:446
+msgid "Size"
+msgstr ""
+
+#: engine/theme-metaboxes.php:626
+msgid "Input the size of your property."
+msgstr ""
+
+#: engine/theme-metaboxes.php:632
+msgid "Lot Size"
+msgstr ""
+
+#: engine/theme-metaboxes.php:633
+msgid "Input the lot size of your property."
+msgstr ""
+
+#: engine/theme-metaboxes.php:639
+msgid "Bed Rooms"
+msgstr ""
+
+#: engine/theme-metaboxes.php:640
+msgid "Input the number of rooms in your property."
+msgstr ""
+
+#: engine/theme-metaboxes.php:646
+msgid "Bath Rooms"
+msgstr ""
+
+#: engine/theme-metaboxes.php:647
+msgid "Input the number of bath rooms in your property."
+msgstr ""
+
+#: engine/theme-metaboxes.php:657
+msgid "Property Address"
+msgstr ""
+
+#: engine/theme-metaboxes.php:664
+msgid "Address"
+msgstr ""
+
+#: engine/theme-metaboxes.php:665
+msgid "Input the property address."
+msgstr ""
+
+#: engine/theme-metaboxes.php:671
+msgid "County"
+msgstr ""
+
+#: engine/theme-metaboxes.php:672
+msgid "Input the property county."
+msgstr ""
+
+#: engine/theme-metaboxes.php:678
+msgid "State/Province"
+msgstr ""
+
+#: engine/theme-metaboxes.php:679
+msgid "Input the property state or province."
+msgstr ""
+
+#: engine/theme-metaboxes.php:685
+msgid "Country"
+msgstr ""
+
+#: engine/theme-metaboxes.php:686
+msgid "Select the property country."
+msgstr ""
+
+#: engine/theme-metaboxes.php:693
+msgid "Zip/Post Code"
+msgstr ""
+
+#: engine/theme-metaboxes.php:694
+msgid "Input the property ZIP or post code."
+msgstr ""
+
+#: engine/theme-metaboxes.php:704
+msgid "Google Maps Settings"
+msgstr ""
+
+#: engine/theme-metaboxes.php:711
+#: framework/functions/metaboxes/metaboxes.php:99
+msgid "Place Pin to Point Your Property"
+msgstr ""
+
+#: engine/theme-metaboxes.php:716
+msgid "Latitude"
+msgstr ""
+
+#: engine/theme-metaboxes.php:717
+msgid "You can input the latitude of your property here."
+msgstr ""
+
+#: engine/theme-metaboxes.php:723
+msgid "Longitude"
+msgstr ""
+
+#: engine/theme-metaboxes.php:724
+msgid "You can input the longitude of your property here."
+msgstr ""
+
+#: engine/theme-metaboxes.php:741
+msgid "Properties Gallery"
+msgstr ""
+
+#: engine/theme-metaboxes.php:748
+msgid "Property Images Gallery"
+msgstr ""
+
+#: engine/theme-metaboxes.php:749
+msgid "You can select the images for your property from here."
+msgstr ""
+
+#: engine/theme-metaboxes.php:759
+msgid "Properties Features and Amenities"
+msgstr ""
+
+#: engine/theme-metaboxes.php:766
+msgid "Property Features and Amenities"
+msgstr ""
+
+#: engine/theme-metaboxes.php:767
+msgid "You can select the features and amenities for your property."
+msgstr ""
+
+#: engine/theme-metaboxes.php:778
+msgid "Properties Slider Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:794
+msgid ""
+"You can put the layerslider or revolution slider shortcode in here. It will "
+"overwrite the default slider."
+msgstr ""
+
+#: engine/theme-metaboxes.php:804
+msgid "Properties Custom Fields"
+msgstr ""
+
+#: engine/theme-metaboxes.php:814
+msgid "People Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:822
+msgid ""
+"Select the layout you want on this specific people post. Overrides default "
+"site layout."
+msgstr ""
+
+#: engine/theme-metaboxes.php:829
+msgid "People Information"
+msgstr ""
+
+#: engine/theme-metaboxes.php:830
+msgid "Input your own people post information here."
+msgstr ""
+
+#: engine/theme-metaboxes.php:836
+msgid "Mobile Phone"
+msgstr ""
+
+#: engine/theme-metaboxes.php:837
+msgid "Input the people mobile phone information here."
+msgstr ""
+
+#: engine/theme-metaboxes.php:844
+msgid "Input the people email information in here."
+msgstr ""
+
+#: engine/theme-metaboxes.php:851
+msgid "Input the people skype userid in here."
+msgstr ""
+
+#: engine/theme-metaboxes.php:857
+msgid "Enable GMaps in People Detail?"
+msgstr ""
+
+#: engine/theme-metaboxes.php:858
+msgid "Choose 'On' if you want to show the maps in the people detail page."
+msgstr ""
+
+#: engine/theme-metaboxes.php:869
+msgid "Testimonial Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:876
+msgid "Testimonial Information"
+msgstr ""
+
+#: engine/theme-metaboxes.php:877
+msgid "Input your own testimonial post information here."
+msgstr ""
+
+#: engine/theme-metaboxes.php:887
+msgid "Brand Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:895
+msgid "Input the external link for your brand post in here. (optional)"
+msgstr ""
+
+#: engine/theme-metaboxes.php:905
+msgid "Slider Options"
+msgstr ""
+
+#: engine/theme-metaboxes.php:913
+msgid ""
+"(optional). You can input the URL if you want to link the slider image to "
+"another website."
+msgstr ""
+
+#: engine/theme-metaboxes.php:919
+msgid "Custom Image URL"
+msgstr ""
+
+#: engine/theme-metaboxes.php:926
+msgid "Top Text 1"
+msgstr ""
+
+#: engine/theme-metaboxes.php:927 engine/theme-metaboxes.php:934
+msgid ""
+"Input the text in here if you want to show the text on top of the title."
+msgstr ""
+
+#: engine/theme-metaboxes.php:933
+msgid "Top Text 2"
+msgstr ""
+
+#: engine/theme-metaboxes.php:940
+msgid "Subtitle"
+msgstr ""
+
+#: engine/theme-metaboxes.php:941
+msgid ""
+"Input the text in here if you want to show the text just below the title."
+msgstr ""
+
+#: engine/theme-metaboxes.php:947
+msgid "Bottom Text"
+msgstr ""
+
+#: engine/theme-metaboxes.php:948
+msgid ""
+"Input the text in here if you want to show the text just below the content."
+msgstr ""
+
+#: engine/theme-metaboxes.php:959
+msgid "Package Details"
+msgstr ""
+
+#: engine/theme-metaboxes.php:966
+msgid "Billing Time Unit"
+msgstr ""
+
+#: engine/theme-metaboxes.php:967
+msgid "Select the billing unit for this package."
+msgstr ""
+
+#: engine/theme-metaboxes.php:975
+msgid "Bill Every X Unit"
+msgstr ""
+
+#: engine/theme-metaboxes.php:976
+msgid "Please input the number of x unit."
+msgstr ""
+
+#: engine/theme-metaboxes.php:983
+msgid "Included Listings"
+msgstr ""
+
+#: engine/theme-metaboxes.php:984
+msgid "How many listings are included? Please put -1 to make it unlimited"
+msgstr ""
+
+#: engine/theme-metaboxes.php:991
+msgid "Included Featured Listings"
+msgstr ""
+
+#: engine/theme-metaboxes.php:992
+msgid ""
+"How many featured listings are included? Please put -1 to make it unlimited"
+msgstr ""
+
+#: engine/theme-metaboxes.php:999
+msgid "Is Visible?"
+msgstr ""
+
+#: engine/theme-metaboxes.php:1000
+msgid "Please select Yes if you want to make it visible."
+msgstr ""
+
+#: engine/theme-metaboxes.php:1008
+msgid "Package Price In"
+msgstr ""
+
+#: engine/theme-metaboxes.php:1009
+msgid "Please input the price of the package."
+msgstr ""
+
+#: engine/theme-metaboxes.php:1016
+msgid "Package Stripe id"
+msgstr ""
+
+#: engine/theme-metaboxes.php:1017
+msgid "Please input the package stripe id in here.(ex:gold-pack)"
+msgstr ""
+
+#: engine/theme-metaboxes.php:1027
+msgid "Invoice Details"
+msgstr ""
+
+#: engine/theme-metaboxes.php:1035
+msgid "Select the type of this invoice."
+msgstr ""
+
+#: engine/theme-metaboxes.php:1043
+msgid "Billing Type"
+msgstr ""
+
+#: engine/theme-metaboxes.php:1044
+msgid "Select the billing type for this invoice."
+msgstr ""
+
+#: engine/theme-metaboxes.php:1052
+msgid "Item ID"
+msgstr ""
+
+#: engine/theme-metaboxes.php:1053
+msgid "Please input the Item ID for this invoice."
+msgstr ""
+
+#: engine/theme-metaboxes.php:1060
+msgid "Item Price"
+msgstr ""
+
+#: engine/theme-metaboxes.php:1061
+msgid "Please input the Item Price for this invoice."
+msgstr ""
+
+#: engine/theme-metaboxes.php:1068
+msgid "Purchase Date"
+msgstr ""
+
+#: engine/theme-metaboxes.php:1069
+msgid "Please input the purchase date for this invoice."
+msgstr ""
+
+#: engine/theme-metaboxes.php:1076
+msgid "User ID"
+msgstr ""
+
+#: engine/theme-metaboxes.php:1077
+msgid "Please input the User ID for this invoice."
+msgstr ""
+
+#: engine/theme-metaboxes.php:1087
+msgid "Product Layout"
+msgstr ""
+
+#: engine/theme-options.php:59
+msgid "Image logo"
+msgstr ""
+
+#: engine/theme-options.php:60
+msgid "Text-based logo"
+msgstr ""
+
+#: engine/theme-options.php:64
+msgid "Version 1"
+msgstr ""
+
+#: engine/theme-options.php:65
+msgid "Version 2"
+msgstr ""
+
+#: engine/theme-options.php:66
+msgid "Version 3"
+msgstr ""
+
+#: engine/theme-options.php:67
+msgid "Version 4"
+msgstr ""
+
+#: engine/theme-options.php:68
+msgid "Version 5"
+msgstr ""
+
+#: engine/theme-options.php:69
+msgid "Version 6"
+msgstr ""
+
+#: engine/theme-options.php:70
+msgid "Version 7"
+msgstr ""
+
+#: engine/theme-options.php:74
+msgid "Above the logo"
+msgstr ""
+
+#: engine/theme-options.php:75
+msgid "Below the logo"
+msgstr ""
+
+#: engine/theme-options.php:79
+msgid "Fixed"
+msgstr ""
+
+#: engine/theme-options.php:80
+msgid "Absolute"
+msgstr ""
+
+#: engine/theme-options.php:84
+msgid "Full-Width Layout"
+msgstr ""
+
+#: engine/theme-options.php:85
+msgid "Boxed Layout"
+msgstr ""
+
+#: engine/theme-options.php:118
+msgid "Before"
+msgstr ""
+
+#: engine/theme-options.php:119
+msgid "After"
+msgstr ""
+
+#: engine/theme-options.php:123
+msgid "Square Feet"
+msgstr ""
+
+#: engine/theme-options.php:124
+msgid "Square Meters"
+msgstr ""
+
+#: engine/theme-options.php:177 engine/theme-options.php:765
+#: engine/theme-options.php:775
+msgid "No"
+msgstr ""
+
+#: engine/theme-options.php:178
+msgid "Per Listing"
+msgstr ""
+
+#: engine/theme-options.php:179 template-dashboard-add.php:1118
+msgid "Membership"
+msgstr ""
+
+#: engine/theme-options.php:262
+msgid "General Settings"
+msgstr ""
+
+#: engine/theme-options.php:271
+msgid "Column Layout"
+msgstr ""
+
+#: engine/theme-options.php:272
+msgid "Select the default column layout. Default layout is Two Column Left."
+msgstr ""
+
+#: engine/theme-options.php:280
+msgid "Footer Sidebar Layout"
+msgstr ""
+
+#: engine/theme-options.php:281
+msgid "Select footer sidebar layout. Default sidebar is four column."
+msgstr ""
+
+#: engine/theme-options.php:289
+msgid "Disable Responsive Feature?"
+msgstr ""
+
+#: engine/theme-options.php:290
+msgid "Select this checkbox to disable the responsive website feature."
+msgstr ""
+
+#: engine/theme-options.php:297
+msgid "Disable Retina Display Feature?"
+msgstr ""
+
+#: engine/theme-options.php:298
+msgid ""
+"Select this checkbox to disable the retina display compatibility feature."
+msgstr ""
+
+#: engine/theme-options.php:305
+msgid "Logo Type"
+msgstr ""
+
+#: engine/theme-options.php:306
+msgid ""
+"If text-based logo is activated, enter the logo name and logo tagline in the "
+"fields below."
+msgstr ""
+
+#: engine/theme-options.php:316
+msgid "Logo Name"
+msgstr ""
+
+#: engine/theme-options.php:317
+msgid "Put your logo name in here."
+msgstr ""
+
+#: engine/theme-options.php:324
+msgid "Logo Tagline"
+msgstr ""
+
+#: engine/theme-options.php:325
+msgid "Put your tagline in here."
+msgstr ""
+
+#: engine/theme-options.php:332
+msgid "Dark Logo Image"
+msgstr ""
+
+#: engine/theme-options.php:335 engine/theme-options.php:344
+msgid "If image logo is activated, upload the logo image."
+msgstr ""
+
+#: engine/theme-options.php:341
+msgid "Light Logo Image"
+msgstr ""
+
+#: engine/theme-options.php:351
+msgid "Logo's height"
+msgstr ""
+
+#: engine/theme-options.php:352
+msgid ""
+"You can change the logo's height in here and the width will follow "
+"automatically. Input the numbers only."
+msgstr ""
+
+#: engine/theme-options.php:359
+msgid "Favicon"
+msgstr ""
+
+#: engine/theme-options.php:362
+msgid "Upload the favicon image."
+msgstr ""
+
+#: engine/theme-options.php:368
+msgid "Disable Footer Sidebar?"
+msgstr ""
+
+#: engine/theme-options.php:369
+msgid "Select this checkbox to disable footer sidebar feature."
+msgstr ""
+
+#: engine/theme-options.php:376
+msgid "Login URL"
+msgstr ""
+
+#: engine/theme-options.php:377 engine/theme-options.php:386
+msgid "please input the login url in here."
+msgstr ""
+
+#: engine/theme-options.php:385
+msgid "Register URL"
+msgstr ""
+
+#: engine/theme-options.php:394
+msgid "Footer Text"
+msgstr ""
+
+#: engine/theme-options.php:395 engine/theme-options.php:404
+msgid "You can use html tag in here."
+msgstr ""
+
+#: engine/theme-options.php:403
+msgid "Tracking Code"
+msgstr ""
+
+#: engine/theme-options.php:415
+msgid "Style Settings"
+msgstr ""
+
+#: engine/theme-options.php:424
+msgid "Container's Width"
+msgstr ""
+
+#: engine/theme-options.php:425
+msgid "You can change the global container\\s width from here"
+msgstr ""
+
+#: engine/theme-options.php:426
+msgid "Set the length of your container's width between 940px - 1200px"
+msgstr ""
+
+#: engine/theme-options.php:437
+msgid "Theme Layout"
+msgstr ""
+
+#: engine/theme-options.php:438
+msgid "Choose the layout style that suits your need"
+msgstr ""
+
+#: engine/theme-options.php:448
+msgid "Topbar"
+msgstr ""
+
+#: engine/theme-options.php:449
+msgid "Choose whether to remove the topbar or not."
+msgstr ""
+
+#: engine/theme-options.php:457
+msgid "Container Layout"
+msgstr ""
+
+#: engine/theme-options.php:458
+msgid "Choose the location of your container layout."
+msgstr ""
+
+#: engine/theme-options.php:468
+msgid "Theme Color Options"
+msgstr ""
+
+#: engine/theme-options.php:469
+msgid "Choose the color that suit your need"
+msgstr ""
+
+#: engine/theme-options.php:477
+msgid "General Fonts"
+msgstr ""
+
+#: engine/theme-options.php:478
+msgid "Specify the body font properties."
+msgstr ""
+
+#: engine/theme-options.php:492
+msgid "Bigtext Shortcode Fonts"
+msgstr ""
+
+#: engine/theme-options.php:493
+msgid "Choose the font for [bigtext] shortcode."
+msgstr ""
+
+#: engine/theme-options.php:506
+msgid "Heading Fonts"
+msgstr ""
+
+#: engine/theme-options.php:507
+msgid "Choose the font styles for h1, h2, h3, h4, h5, h6."
+msgstr ""
+
+#: engine/theme-options.php:523
+msgid "Menu Navigation Fonts"
+msgstr ""
+
+#: engine/theme-options.php:524
+msgid "Choose the font for main menu."
+msgstr ""
+
+#: engine/theme-options.php:532
+msgid "Secondary Menu Navigation Fonts"
+msgstr ""
+
+#: engine/theme-options.php:533
+msgid "Choose the font for secondary menu."
+msgstr ""
+
+#: engine/theme-options.php:541
+msgid "Secondary Fonts"
+msgstr ""
+
+#: engine/theme-options.php:542
+msgid ""
+"Choose the font for your secondary font. You can use it by using "
+"\"nvrsecondfont\" class in your tag."
+msgstr ""
+
+#: engine/theme-options.php:559
+msgid "Background Settings"
+msgstr ""
+
+#: engine/theme-options.php:560
+msgid "Change the background CSS."
+msgstr ""
+
+#: engine/theme-options.php:568
+msgid "Change the background on header."
+msgstr ""
+
+#: engine/theme-options.php:575
+msgid "Background Footer"
+msgstr ""
+
+#: engine/theme-options.php:576
+msgid "Change the background on footer."
+msgstr ""
+
+#: engine/theme-options.php:587
+msgid "Icon"
+msgstr ""
+
+#: engine/theme-options.php:588
+#, php-format
+msgid "Input your %s URL in here"
+msgstr ""
+
+#: engine/theme-options.php:594
+msgid "Social Network"
+msgstr ""
+
+#: engine/theme-options.php:602
+msgid "Property Settings"
+msgstr ""
+
+#: engine/theme-options.php:611
+msgid "Google Maps API Key"
+msgstr ""
+
+#: engine/theme-options.php:612
+msgid ""
+"The Google Maps JavaScript API v3 does not require an API key to function "
+"correctly. However, we strongly encourage you to get an APIs Console key and "
+"post the code in Theme Options. You can get it from : "
+msgstr ""
+
+#: engine/theme-options.php:618
+msgid "Google Maps Default Latitude"
+msgstr ""
+
+#: engine/theme-options.php:619
+msgid "Please set the default latitude."
+msgstr ""
+
+#: engine/theme-options.php:625
+msgid "Google Maps Default Longitude"
+msgstr ""
+
+#: engine/theme-options.php:626
+msgid "Please set the default longitude."
+msgstr ""
+
+#: engine/theme-options.php:632
+msgid "Google Maps Default Zoom"
+msgstr ""
+
+#: engine/theme-options.php:633
+msgid "Please set the default zoom."
+msgstr ""
+
+#: engine/theme-options.php:639
+msgid "Currency Symbol"
+msgstr ""
+
+#: engine/theme-options.php:640
+msgid "Please set the currency that you use."
+msgstr ""
+
+#: engine/theme-options.php:646
+msgid "Currency Placement"
+msgstr ""
+
+#: engine/theme-options.php:647
+msgid "Where to show the currency symbol?"
+msgstr ""
+
+#: engine/theme-options.php:654
+msgid "Measurement Unit"
+msgstr ""
+
+#: engine/theme-options.php:655
+msgid "What is the unit that will be displayed?"
+msgstr ""
+
+#: engine/theme-options.php:663
+msgid "You can add the property status in here."
+msgstr ""
+
+#: engine/theme-options.php:669 single-propertys.php:173
+msgid "Property Features &amp; Amenities"
+msgstr ""
+
+#: engine/theme-options.php:670
+msgid "You can add a new features or amenities for the property in here."
+msgstr ""
+
+#: engine/theme-options.php:676
+msgid "Property Custom Field"
+msgstr ""
+
+#: engine/theme-options.php:677
+msgid "You can add a new field for the property in here."
+msgstr ""
+
+#: engine/theme-options.php:683
+msgid "Use Pin Cluster?"
+msgstr ""
+
+#: engine/theme-options.php:684
+msgid ""
+"If you tick this checkbox, the google maps will group the pin location at "
+"certain distance."
+msgstr ""
+
+#: engine/theme-options.php:690
+msgid "Zoom Level Cluster"
+msgstr ""
+
+#: engine/theme-options.php:691
+msgid ""
+"Please set the maximum zoom level of the cloud cluster to be shown in your "
+"maps."
+msgstr ""
+
+#: engine/theme-options.php:697
+msgid "Enable Geolocation?"
+msgstr ""
+
+#: engine/theme-options.php:698
+msgid "If you tick this checkbox, the google maps will use geolocation."
+msgstr ""
+
+#: engine/theme-options.php:704
+msgid "Geolocation Radius"
+msgstr ""
+
+#: engine/theme-options.php:705
+msgid "Please set the geolocation radius over map."
+msgstr ""
+
+#: engine/theme-options.php:711
+msgid "Minimum Price in the Search Form"
+msgstr ""
+
+#: engine/theme-options.php:712
+msgid "Please set the minimum price in search form."
+msgstr ""
+
+#: engine/theme-options.php:718
+msgid "Maximum Price in the Search Form"
+msgstr ""
+
+#: engine/theme-options.php:719
+msgid "Please set the maximum price in search form."
+msgstr ""
+
+#: engine/theme-options.php:726
+msgid "Membership and Payment Settings"
+msgstr ""
+
+#: engine/theme-options.php:735
+msgid "Enable Paid Submission?"
+msgstr ""
+
+#: engine/theme-options.php:736
+msgid "Please choose the paid submission system that suit your need."
+msgstr ""
+
+#: engine/theme-options.php:744 engine/theme-options.php:754
+msgid "Enabled"
+msgstr ""
+
+#: engine/theme-options.php:745 engine/theme-options.php:755
+msgid "Disabled"
+msgstr ""
+
+#: engine/theme-options.php:746
+msgid "Enable Paypal?"
+msgstr ""
+
+#: engine/theme-options.php:747
+msgid "switch to enable the paid submission using paypal"
+msgstr ""
+
+#: engine/theme-options.php:756
+msgid "Enable Stripe?"
+msgstr ""
+
+#: engine/theme-options.php:757
+msgid "switch to enable the paid submission using stripe"
+msgstr ""
+
+#: engine/theme-options.php:764 engine/theme-options.php:774
+msgid "Yes"
+msgstr ""
+
+#: engine/theme-options.php:766
+msgid "Need Administrator approval for submitted listing?"
+msgstr ""
+
+#: engine/theme-options.php:767
+msgid ""
+"switch to Yes if you want the submitted listing should be approved by "
+"administrator."
+msgstr ""
+
+#: engine/theme-options.php:776
+msgid "Front end registered users will automatically become an agent?"
+msgstr ""
+
+#: engine/theme-options.php:777
+msgid ""
+"switch to Yes if you want the registered user become an agent automatically."
+msgstr ""
+
+#: engine/theme-options.php:784
+msgid "Price per Submission"
+msgstr ""
+
+#: engine/theme-options.php:785
+msgid "please input the price per submission."
+msgstr ""
+
+#: engine/theme-options.php:792
+msgid "Price to make featured listings"
+msgstr ""
+
+#: engine/theme-options.php:793
+msgid "please input the price to make featured listings."
+msgstr ""
+
+#: engine/theme-options.php:800
+msgid "Currency for payment?"
+msgstr ""
+
+#: engine/theme-options.php:801
+msgid "Please choose the currency for payment using paypal or stripe."
+msgstr ""
+
+#: engine/theme-options.php:809
+msgid "Paypal Client ID"
+msgstr ""
+
+#: engine/theme-options.php:810
+msgid "Please input the paypal client ID."
+msgstr ""
+
+#: engine/theme-options.php:817
+msgid "Paypal Client Secret Key"
+msgstr ""
+
+#: engine/theme-options.php:818
+msgid "Please input the paypal client Secret Key."
+msgstr ""
+
+#: engine/theme-options.php:825
+msgid "Paypal API"
+msgstr ""
+
+#: engine/theme-options.php:826
+msgid "Please choose the paypal API that you want to us."
+msgstr ""
+
+#: engine/theme-options.php:834
+msgid "Paypal API Username"
+msgstr ""
+
+#: engine/theme-options.php:835
+msgid "Please input the paypal api username."
+msgstr ""
+
+#: engine/theme-options.php:842
+msgid "Paypal API Password"
+msgstr ""
+
+#: engine/theme-options.php:843
+msgid "Please input the paypal api password."
+msgstr ""
+
+#: engine/theme-options.php:850
+msgid "Paypal API Signature"
+msgstr ""
+
+#: engine/theme-options.php:851
+msgid "Please input the paypal api signature."
+msgstr ""
+
+#: engine/theme-options.php:858
+msgid "Paypal Receiving Email"
+msgstr ""
+
+#: engine/theme-options.php:859
+msgid "Please input the paypal receiving email."
+msgstr ""
+
+#: engine/theme-options.php:866
+msgid "Stripe Secret Key"
+msgstr ""
+
+#: engine/theme-options.php:867
+msgid "Please input the stripe secret key."
+msgstr ""
+
+#: engine/theme-options.php:874
+msgid "Stripe Publishable Key"
+msgstr ""
+
+#: engine/theme-options.php:875
+msgid "Please input the stripe publishable key."
+msgstr ""
+
+#: engine/theme-options.php:882
+msgid "Number of Free Membership listing"
+msgstr ""
+
+#: engine/theme-options.php:883
+msgid ""
+"Please input the number of listing that is allowed for free membership. Put "
+"-1 if you want to make it unlimited"
+msgstr ""
+
+#: engine/theme-options.php:890
+msgid "Number of Free Membership Featured Listing"
+msgstr ""
+
+#: engine/theme-options.php:891
+msgid ""
+"Please input the number of featured listing that is allowed for free "
+"membership. Put -1 if you want to make it unlimited"
+msgstr ""
+
+#: engine/theme-options.php:898
+msgid "Blog Settings"
+msgstr ""
+
+#: engine/theme-options.php:907
+msgid "Blog Layouts"
+msgstr ""
+
+#: engine/theme-options.php:908
+msgid "Select the default layout for your blog page."
+msgstr ""
+
+#: engine/theme-options.php:917
+msgid ""
+"If you tick this checkbox, the blog page will replace the pagination with "
+"Infinite Scrolls (\"Load More\" Button)."
+msgstr ""
+
+#: engine/theme-options.php:924
+msgid "Slider Settings"
+msgstr ""
+
+#: engine/theme-options.php:933
+msgid "Arrange Slider Post"
+msgstr ""
+
+#: engine/theme-options.php:934
+msgid "Select the order for your slider. the default is Ascending"
+msgstr ""
+
+#: engine/theme-options.php:942
+msgid "Slider Effect"
+msgstr ""
+
+#: engine/theme-options.php:943
+msgid "Please select transition effect. The default is fade"
+msgstr ""
+
+#: engine/theme-options.php:951
+msgid "Slider Interval"
+msgstr ""
+
+#: engine/theme-options.php:952
+msgid "Please enter number for slider interval. Default is 8000"
+msgstr ""
+
+#: engine/theme-options.php:959
+msgid "Disable Slider Text"
+msgstr ""
+
+#: engine/theme-options.php:960
+msgid "Select this checkbox to disable the slider text."
+msgstr ""
+
+#: engine/theme-options.php:967
+msgid "Disable Slider Navigation"
+msgstr ""
+
+#: engine/theme-options.php:968
+msgid "Select this checkbox to disable navigation."
+msgstr ""
+
+#: engine/theme-options.php:975
+msgid "Disable Slider Previous/Next Navigation"
+msgstr ""
+
+#: engine/theme-options.php:976
+msgid "Select this checkbox to disable previous/next navigation."
+msgstr ""
+
+#: engine/theme-options.php:983
+msgid "Miscellaneous"
+msgstr ""
+
+#: engine/theme-options.php:992
+msgid "Header Text"
+msgstr ""
+
+#: engine/theme-options.php:993
+msgid ""
+"Please input your own header text. (it will be placed on top of the logo)."
+msgstr ""
+
+#: engine/theme-options.php:1000
+msgid "Secondary Header Text"
+msgstr ""
+
+#: engine/theme-options.php:1001
+msgid ""
+"Please input your own secondary header text. (it will be placed on top of "
+"the logo and on the right side of primary header text)."
+msgstr ""
+
+#: engine/theme-options.php:1008
+msgid "Disable Minicart"
+msgstr ""
+
+#: engine/theme-options.php:1009
+msgid "Select this checkbox to disable minicart at the top."
+msgstr ""
+
+#: engine/theme-options.php:1016
+msgid "Disable Top Search"
+msgstr ""
+
+#: engine/theme-options.php:1017
+msgid "Select this checkbox to disable searchbox at the top."
+msgstr ""
+
+#: engine/theme-options.php:1024
+msgid "Enable After Content Section"
+msgstr ""
+
+#: engine/theme-options.php:1025
+msgid "Select this checkbox to enable the After Content Section."
+msgstr ""
+
+#: engine/theme-options.php:1032
+msgid "Background After Content Section"
+msgstr ""
+
+#: engine/theme-options.php:1033
+msgid "Change the background on after content section."
+msgstr ""
+
+#: engine/theme-options.php:1040
+msgid "After Content Text"
+msgstr ""
+
+#: engine/theme-options.php:1041
+msgid "you can use html tag in here."
+msgstr ""
+
+#: engine/theme-options.php:1048
+msgid "Demo Mode"
+msgstr ""
+
+#: engine/theme-options.php:1049
+msgid "For demonstration purpose only."
+msgstr ""
+
+#: engine/theme-options.php:1061
+msgid "Theme Information 1"
+msgstr ""
+
+#: engine/theme-options.php:1062 engine/theme-options.php:1068
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: engine/theme-options.php:1067
+msgid "Theme Information 2"
+msgstr ""
+
+#: engine/theme-options.php:1072
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: engine/theme-options.php:1092 engine/theme-options.php:1093
+msgid "Theme Options"
+msgstr ""
+
+#: engine/theme-options.php:1192
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: engine/theme-scripts.php:129
+msgid "in"
+msgstr ""
+
+#: engine/theme-scripts.php:130
+msgid "radius"
+msgstr ""
+
+#: engine/theme-scripts.php:180
+msgid "Are you sure you want to delete this?"
+msgstr ""
+
+#: engine/theme-scripts.php:191
+msgid "Allowed Files"
+msgstr ""
+
+#: engine/theme-scripts.php:223
+msgid "Loading More Portfolio"
+msgstr ""
+
+#: engine/theme-scripts.php:224
+msgid "Loading More Posts"
+msgstr ""
+
+#: engine/theme-scripts.php:225
+msgid "All Items are Loaded"
+msgstr ""
+
+#: engine/theme-scripts.php:226
+msgid "Sending..."
+msgstr ""
+
+#: engine/theme-shortcodes.php:14 engine/theme-shortcodes.php:22
+msgid "Show Portfolio"
+msgstr ""
+
+#: engine/theme-shortcodes.php:128 template-portfolio.php:59
+#: template-property.php:47 widgets/nvr-agent-lists.php:123
+msgid "All Categories"
+msgstr ""
+
+#: engine/theme-shortcodes.php:295
+#: framework/ReduxCore/inc/fields/border/field_border.php:114
+#: framework/ReduxCore/inc/fields/spacing/field_spacing.php:191
+msgid "All"
+msgstr ""
+
+#: engine/theme-shortcodes.php:1506
+msgid "Permonth"
+msgstr ""
+
+#: engine/theme-shortcodes.php:1507
+msgid "Purchase Now"
+msgstr ""
+
+#: engine/theme-shortcodes.php:1611 engine/theme-shortcodes.php:1650
+#: framework/ReduxCore/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: engine/theme-shortcodes.php:1612
+#: framework/ReduxCore/inc/fields/password/field_password.php:62
+msgid "Password"
+msgstr ""
+
+#: engine/theme-shortcodes.php:1619
+msgid "forgot password?"
+msgstr ""
+
+#: engine/theme-shortcodes.php:1629
+msgid "Enter Your Email Address"
+msgstr ""
+
+#: engine/theme-shortcodes.php:1633 template-dashboard-profile.php:256
+msgid "Reset Password"
+msgstr ""
+
+#: engine/theme-shortcodes.php:1634
+msgid "return to login"
+msgstr ""
+
+#: engine/theme-shortcodes.php:1653
+msgid "A password will be e-mailed to you"
+msgstr ""
+
+#: framework/ReduxCore/extensions/customizer/extension_customizer.php:467
+#: framework/ReduxCore/framework.php:1761
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: framework/ReduxCore/extensions/customizer/extension_customizer.php:468
+#: framework/ReduxCore/framework.php:1769
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: framework/ReduxCore/extensions/customizer/extension_customizer.php:469
+#: framework/ReduxCore/framework.php:1785
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: framework/ReduxCore/extensions/customizer/extension_customizer.php:502
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: framework/ReduxCore/extensions/customizer/extension_customizer.php:503
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: framework/ReduxCore/extensions/customizer/extension_customizer.php:504
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:172
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:172
+msgid "Redux Framework"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:176 framework/ReduxCore/framework.php:180
+msgid "Options"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:1218
+#: framework/ReduxCore/framework.php:1219
+#: framework/ReduxCore/framework.php:3363
+#: framework/ReduxCore/framework.php:3442
+msgid "System Info"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:1777
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: framework/ReduxCore/framework.php:1792
+msgid "Please Wait"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:1938
+msgid "Hints"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:1939
+msgid "<p>"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3115
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3189
+msgid "Expand"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3191
+#: framework/ReduxCore/framework.php:3499
+#: framework/sidebargenerator/nvr-form.php:254 template-dashboard-add.php:1229
+msgid "Save Changes"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3195
+#: framework/ReduxCore/framework.php:3503
+msgid "Reset Section"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3197
+#: framework/ReduxCore/framework.php:3505
+msgid "Reset All"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3202
+#: framework/ReduxCore/framework.php:3510
+msgid "Working..."
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3222
+msgid "Settings Imported!"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3237
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3251
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3265
+msgid "Settings Saved!"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3283
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3291
+msgid "error(s) were found!"
+msgstr ""
+
+#: framework/ReduxCore/framework.php:3299
+msgid "warning(s) were found!"
+msgstr ""
+
+#: framework/ReduxCore/inc/class.redux_filesystem.php:22
+msgid "Unable to create a required directory. Please ensure that"
+msgstr ""
+
+#: framework/ReduxCore/inc/class.redux_filesystem.php:24
+msgid ""
+"has the proper read/write permissions or enter your FTP information below."
+msgstr ""
+
+#: framework/ReduxCore/inc/class.redux_functions.php:252
+msgid "Dismiss"
+msgstr ""
+
+#: framework/ReduxCore/inc/debug.php:41 framework/ReduxCore/inc/debug.php:69
+#: framework/ReduxCore/inc/debug.php:76 framework/ReduxCore/inc/debug.php:77
+msgid "Options Object"
+msgstr ""
+
+#: framework/ReduxCore/inc/debug.php:54
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/background/field_background.php:124
+#: framework/ReduxCore/inc/fields/color/field_color.php:72
+#: framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:79
+#: framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+#: framework/ReduxCore/inc/fields/color_rgba/field_color_rgba.php:77
+msgid "Transparent"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/background/field_background.php:277
+#: framework/ReduxCore/inc/fields/media/field_media.php:112
+msgid "No media selected"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/background/field_background.php:314
+#: framework/ReduxCore/inc/fields/media/field_media.php:154
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:126
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/background/field_background.php:321
+#: framework/ReduxCore/inc/fields/media/field_media.php:161
+#: framework/ReduxCore/inc/fields/multi_text/field_multi_text.php:68
+#: framework/ReduxCore/inc/fields/multi_text/field_multi_text.php:72
+#: framework/ReduxCore/inc/fields/multi_text/field_multi_text.php:75
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:133
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/border/field_border.php:127
+#: framework/ReduxCore/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/border/field_border.php:134
+#: framework/ReduxCore/inc/fields/spacing/field_spacing.php:222
+msgid "Right"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/border/field_border.php:141
+#: framework/ReduxCore/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/border/field_border.php:148
+#: framework/ReduxCore/inc/fields/spacing/field_spacing.php:236
+msgid "Left"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/border/field_border.php:162
+msgid "Border style"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/dimensions/field_dimensions.php:161
+msgid "Width"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/dimensions/field_dimensions.php:177
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:455
+msgid "Height"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/dimensions/field_dimensions.php:188
+#: framework/ReduxCore/inc/fields/dimensions/field_dimensions.php:189
+#: framework/ReduxCore/inc/fields/spacing/field_spacing.php:245
+#: framework/ReduxCore/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/link_color/field_link_color.php:87
+msgid "Regular"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/link_color/field_link_color.php:91
+msgid "Hover"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/link_color/field_link_color.php:95
+msgid "Visited"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/link_color/field_link_color.php:99
+msgid "Active"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/multi_text/field_multi_text.php:60
+msgid "Add More"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/select/field_select.php:82
+#: framework/ReduxCore/inc/fields/select_image/field_select_image.php:62
+msgid "Select an item"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/select/field_select.php:126
+#: framework/ReduxCore/inc/fields/select_image/field_select_image.php:143
+msgid "No items of this type were found."
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:73
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:149
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:204
+msgid "Description"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:153
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:167
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:220
+#, php-format
+msgid "Delete %s"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:256
+msgid "Font Family"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:257
+msgid "Font family"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:283
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:284
+msgid "Backup Font Family"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:298
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:305
+msgid "Font style"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:299
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:305
+msgid "Style"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:335
+msgid "Font subsets"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:337
+msgid "Font Subsets"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:338
+msgid "Subsets"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:338
+msgid "Font script"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:355
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:356
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:357
+msgid "Text Align"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:378
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:379
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:380
+msgid "Text Transform"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:401
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:402
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:403
+msgid "Font Variant"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:421
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:422
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:423
+msgid "Text Decoration"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:445
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:446
+msgid "Font Size"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:454
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:455
+msgid "Line Height"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:463
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:464
+msgid "Word Spacing"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:472
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:473
+msgid "Letter Spacing"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:493
+msgid "Font color"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:822
+msgid "Standard Fonts"
+msgstr ""
+
+#: framework/ReduxCore/inc/fields/typography/field_typography.php:929
+msgid "Google Webfonts"
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:78
+msgid "Import / Export Options"
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:81
+msgid "Import Options"
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:82
+msgid "Import from file"
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:82
+msgid "Import from URL"
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:85
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:90
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:94
+msgid "Import"
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:94
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:97
+msgid "Export Options"
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:100
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:104
+msgid "Copy"
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:104
+msgid "Download"
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:104
+msgid "Copy Link"
+msgstr ""
+
+#: framework/ReduxCore/inc/import_export.php:140
+#: framework/ReduxCore/inc/import_export.php:149
+#: framework/ReduxCore/inc/import_export.php:150
+msgid "Import / Export"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:130
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:131
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test to ensure "
+"compatability."
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:136
+msgid "Allow tracking"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:141
+msgid "Do not allow tracking"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:152
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:153
+msgid "Getting Started"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:153
+#, php-format
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we "
+"suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:153
+msgid "our documentation"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:154
+msgid "Redux Generator"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:154
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized "
+"boilerplate theme or a standalone admin folder complete with all things "
+"Redux (with the help of Underscores and TGM). Save yourself a headache and "
+"try it today."
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:155
+msgid "Redux Extensions"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:155
+#, php-format
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of "
+"Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:155
+msgid "extensions directory"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:156
+msgid "Like Redux?"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:156
+#, php-format
+msgid ""
+"If so, please %1$s and consider making a %2$s to keep development of Redux "
+"moving forward."
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:156
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:156
+msgid "donation"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:157
+msgid "Newsletter"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:157
+msgid ""
+"If you'd like to keep up to with all things Redux, please subscribe to our "
+"newsletter"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:158
+msgid "Email address"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:158
+msgid "Subscribe"
+msgstr ""
+
+#: framework/ReduxCore/inc/tracking.php:167
+msgid "Close"
+msgstr ""
+
+#: framework/ReduxCore/inc/validation/color/validation_color.php:15
+#: framework/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
+#: framework/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: framework/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: framework/ReduxCore/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: framework/ReduxCore/inc/validation/email/validation_email.php:16
+#: framework/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: framework/ReduxCore/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: framework/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: framework/ReduxCore/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: framework/ReduxCore/inc/validation/numeric/validation_numeric.php:16
+#: framework/ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: framework/ReduxCore/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:213
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:544
+#: framework/classes/class-tgm-plugin-activation.php:2168
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1174
+msgid "Private Repository"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1177
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1182
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1185
+msgid "Required"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1185
+msgid "Recommended"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1188
+msgid "Not Installed"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1190
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1290
+#: framework/classes/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1312
+#: framework/classes/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1379
+#: single-propertys.php:136
+msgid "Type"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1380
+#: single-propertys.php:138
+msgid "Status"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1508
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1616
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1934
+msgid "Install package not available."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1935
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1936
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1937
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1938
+msgid "Plugin install failed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1939
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1950
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2064
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2065
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2065
+#: framework/classes/class-tgm-plugin-activation.php:2074
+msgid "Show Details"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2065
+#: framework/classes/class-tgm-plugin-activation.php:2074
+msgid "Hide Details"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2066
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2071
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2075
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2076
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:118
+#: framework/functions/metaboxes/metaboxes.php:130
+msgid "Delete image"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:118
+#: framework/functions/metaboxes/metaboxes.php:130
+#: template-dashboard-list.php:217
+msgid "Delete"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:130
+msgid "Add Images to Post Gallery"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:130
+msgid "Add to gallery"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:130
+msgid "Add post gallery images"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:138
+msgid "Add Section"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:145
+msgid "Remove Section"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:148
+msgid "BG Color"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:149
+msgid "BG Image"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:150
+msgid "Custom Class"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:153
+msgid "Content"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:182
+msgid "Select Post Category"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:247
+msgid "Select Slider Category"
+msgstr ""
+
+#: framework/functions/metaboxes/metaboxes.php:295
+msgid "Select Portfolio Category"
+msgstr ""
+
+#: framework/nvr-general-functions.php:136
+#, php-format
+msgid "Categories: %1$s <br/> Tags: %2$s"
+msgstr ""
+
+#: framework/nvr-general-functions.php:138
+#, php-format
+msgid "Categories: %1$s"
+msgstr ""
+
+#: framework/nvr-general-functions.php:165
+msgid "Click for Home"
+msgstr ""
+
+#: framework/nvr-general-functions.php:165
+msgid "Home"
+msgstr ""
+
+#: framework/sidebargenerator/nvr-form.php:8
+msgid "settings saved."
+msgstr ""
+
+#: framework/sidebargenerator/nvr-form.php:146
+msgid "Please input the textbox first!"
+msgstr ""
+
+#: framework/sidebargenerator/nvr-form.php:161
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: framework/sidebargenerator/nvr-form.php:227
+#: framework/sidebargenerator/nvr-sidebar.php:18
+msgid "Sidebar Generator"
+msgstr ""
+
+#: framework/sidebargenerator/nvr-form.php:230
+msgid "Add"
+msgstr ""
+
+#: framework/sidebargenerator/nvr-form.php:231
+#: framework/sidebargenerator/nvr-sidebar.php:19
+msgid "Please enter name of new sidebar"
+msgstr ""
+
+#: framework/sidebargenerator/nvr-form.php:253
+msgid "Restore Defaults"
+msgstr ""
+
+#: framework/sidebargenerator/nvr-form.php:253
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: framework/sidebargenerator/nvr-sidebar.php:11
+#: framework/sidebargenerator/nvr-sidebar.php:36
+msgid "Sidebar Manager"
+msgstr ""
+
+#: loop.php:34 template-property-search-result.php:42
+msgid "Not Found"
+msgstr ""
+
+#: loop.php:36
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: loop.php:71 template-portfolio.php:191
+msgid "Load More"
+msgstr ""
+
+#: searchform.php:12
+msgid "Enter the keyword..."
+msgstr ""
+
+#: single-peoplepost.php:68
+msgid "About The Agent"
+msgstr ""
+
+#: single-peoplepost.php:77 single-propertys.php:210
+msgid "Contact The Agent"
+msgstr ""
+
+#: single-peoplepost.php:81 single-propertys.php:241
+msgid "Please enter your name!"
+msgstr ""
+
+#: single-peoplepost.php:82 single-propertys.php:242
+msgid "Please enter your phone!"
+msgstr ""
+
+#: single-peoplepost.php:83 single-propertys.php:243
+msgid "Please enter your email!"
+msgstr ""
+
+#: single-peoplepost.php:86 single-propertys.php:245
+msgid "Please enter your message!"
+msgstr ""
+
+#: single-peoplepost.php:87 single-propertys.php:246
+msgid "Send Message"
+msgstr ""
+
+#: single-peoplepost.php:119 single-propertys.php:237
+msgid "Agent Listings"
+msgstr ""
+
+#: single-propertys.php:128
+msgid "Property Description"
+msgstr ""
+
+#: single-propertys.php:133
+msgid "Property Details"
+msgstr ""
+
+#: single-propertys.php:137
+msgid "Purpose"
+msgstr ""
+
+#: single-propertys.php:141
+msgid "Property Size"
+msgstr ""
+
+#: single-propertys.php:142
+msgid "Property Lot Size"
+msgstr ""
+
+#: single-propertys.php:143
+msgid "Bedroom"
+msgstr ""
+
+#: single-propertys.php:144
+msgid "Bathroom"
+msgstr ""
+
+#: single-propertys.php:202
+msgid "Location of this Property"
+msgstr ""
+
+#: single-propertys.php:295
+msgid "Similar Listings"
+msgstr ""
+
+#: single.php:108
+msgid "0"
+msgstr ""
+
+#: single.php:108
+msgid "1"
+msgstr ""
+
+#: single.php:108
+msgid "%"
+msgstr ""
+
+#: single.php:132
+msgid "Previous Article"
+msgstr ""
+
+#: single.php:136
+msgid "Next Article"
+msgstr ""
+
+#: single.php:146
+msgid "About Author"
+msgstr ""
+
+#: slider-maps.php:43
+msgid "My Location"
+msgstr ""
+
+#: slider-maps.php:48
+msgid "Loading Maps"
+msgstr ""
+
+#: slider-maps.php:96
+msgid "Show Advanced Search"
+msgstr ""
+
+#: slider-maps.php:96
+msgid "Close Advanced Search"
+msgstr ""
+
+#: slider-maps.php:102 widgets/nvr-property-search.php:71
+msgid "Keywords"
+msgstr ""
+
+#: slider-maps.php:105 template-dashboard-add.php:1028
+#: widgets/nvr-property-lists.php:224 widgets/nvr-property-search.php:76
+msgid "All Cities"
+msgstr ""
+
+#: slider-maps.php:123 widgets/nvr-property-search.php:96
+msgid "Any Purpose"
+msgstr ""
+
+#: slider-maps.php:141 widgets/nvr-property-search.php:116
+msgid "Any Type"
+msgstr ""
+
+#: slider-maps.php:161 widgets/nvr-property-search.php:136
+msgid "Any Status"
+msgstr ""
+
+#: slider-maps.php:179 widgets/nvr-property-search.php:156
+msgid "Number of Rooms"
+msgstr ""
+
+#: slider-maps.php:180 widgets/nvr-property-search.php:157
+msgid "Number of Bathrooms"
+msgstr ""
+
+#: slider-maps.php:195
+msgid "Amenities"
+msgstr ""
+
+#: slider-maps.php:213
+msgid "More Filters"
+msgstr ""
+
+#: slider-maps.php:213
+msgid "Less Filters"
+msgstr ""
+
+#: slider-maps.php:214
+msgid "Quick Search"
+msgstr ""
+
+#: slider-maps.php:215 widgets/nvr-property-search.php:170
+msgid "Submit Advanced Search"
+msgstr ""
+
+#: template-dashboard-add.php:352 template-dashboard-add.php:629
+msgid "Please submit a title for your property"
+msgstr ""
+
+#: template-dashboard-add.php:357 template-dashboard-add.php:634
+msgid "*Please submit a description for your property"
+msgstr ""
+
+#: template-dashboard-add.php:362 template-dashboard-add.php:640
+msgid "*Please submit an image for your property"
+msgstr ""
+
+#: template-dashboard-add.php:369 template-dashboard-add.php:645
+msgid "*Please submit an address for your property"
+msgstr ""
+
+#: template-dashboard-add.php:505
+#, php-format
+msgid ""
+"A user has submited a new property on  %s! You should go check it out.This "
+"is the property title: %s"
+msgstr ""
+
+#: template-dashboard-add.php:508
+#, php-format
+msgid "[%s] New Listing Submission"
+msgstr ""
+
+#: template-dashboard-add.php:806
+msgid "A user has edited one of his listings! You should go check it out."
+msgstr ""
+
+#: template-dashboard-add.php:807
+msgid "The property name is : "
+msgstr ""
+
+#: template-dashboard-add.php:809
+#, php-format
+msgid "[%s] Listing Edited"
+msgstr ""
+
+#: template-dashboard-add.php:835 template-dashboard-list.php:91
+#: template-dashboard-profile.php:141
+msgid "My Profile"
+msgstr ""
+
+#: template-dashboard-add.php:836 template-dashboard-list.php:92
+#: template-dashboard-profile.php:142
+msgid "Add New Property"
+msgstr ""
+
+#: template-dashboard-add.php:837 template-dashboard-list.php:93
+#: template-dashboard-profile.php:143
+msgid "Property Lists"
+msgstr ""
+
+#: template-dashboard-add.php:890
+msgid ""
+"Your current package doesn't let you publish more properties! You need to "
+"upgrade your membership."
+msgstr ""
+
+#: template-dashboard-add.php:905
+msgid ""
+"This is a paid submission.The listing will be live after payment is received."
+msgstr ""
+
+#: template-dashboard-add.php:921
+msgid "Property Description & Price"
+msgstr ""
+
+#: template-dashboard-add.php:923
+msgid "*Title (mandatory)"
+msgstr ""
+
+#: template-dashboard-add.php:928
+msgid "*Description (mandatory)"
+msgstr ""
+
+#: template-dashboard-add.php:933
+msgid "Price in "
+msgstr ""
+
+#: template-dashboard-add.php:933
+msgid "(only numbers)"
+msgstr ""
+
+#: template-dashboard-add.php:937
+msgid "After Price Label (for example \"per month\")"
+msgstr ""
+
+#: template-dashboard-add.php:944
+msgid "Listing Images"
+msgstr ""
+
+#: template-dashboard-add.php:964
+msgid "*Select Images (mandatory)"
+msgstr ""
+
+#: template-dashboard-add.php:968
+msgid "*click to set the featured image"
+msgstr ""
+
+#: template-dashboard-add.php:973
+msgid "Listing Location"
+msgstr ""
+
+#: template-dashboard-add.php:975
+msgid "*Address (mandatory) "
+msgstr ""
+
+#: template-dashboard-add.php:980
+msgid "Country "
+msgstr ""
+
+#: template-dashboard-add.php:996
+msgid "State "
+msgstr ""
+
+#: template-dashboard-add.php:1001 template-dashboard-list.php:207
+msgid "City"
+msgstr ""
+
+#: template-dashboard-add.php:1036
+msgid "Zip "
+msgstr ""
+
+#: template-dashboard-add.php:1041
+msgid "County "
+msgstr ""
+
+#: template-dashboard-add.php:1052
+msgid "Latitude (for Google Maps)"
+msgstr ""
+
+#: template-dashboard-add.php:1057
+msgid "Longitude (for Google Maps)"
+msgstr ""
+
+#: template-dashboard-add.php:1064
+msgid "Listing Details"
+msgstr ""
+
+#: template-dashboard-add.php:1066
+msgid "Size in square"
+msgstr ""
+
+#: template-dashboard-add.php:1071
+msgid "Lot Size in square"
+msgstr ""
+
+#: template-dashboard-add.php:1078
+msgid "Rooms"
+msgstr ""
+
+#: template-dashboard-add.php:1083
+msgid "Bathrooms"
+msgstr ""
+
+#: template-dashboard-add.php:1128
+msgid "Paid submission"
+msgstr ""
+
+#: template-dashboard-add.php:1130
+msgid "This is a paid submission."
+msgstr ""
+
+#: template-dashboard-add.php:1131
+msgid "Price: "
+msgstr ""
+
+#: template-dashboard-add.php:1132
+msgid "Featured (extra): "
+msgstr ""
+
+#: template-dashboard-add.php:1139
+msgid "Featured submission"
+msgstr ""
+
+#: template-dashboard-add.php:1145 template-dashboard-list.php:239
+msgid "Make this property featured?"
+msgstr ""
+
+#: template-dashboard-add.php:1157
+msgid "Select Categories"
+msgstr ""
+
+#: template-dashboard-add.php:1171
+msgid "Listed In "
+msgstr ""
+
+#: template-dashboard-add.php:1186
+msgid "Select Property Status"
+msgstr ""
+
+#: template-dashboard-add.php:1190
+msgid "normal"
+msgstr ""
+
+#: template-dashboard-add.php:1203
+msgid "Amenities and Features"
+msgstr ""
+
+#: template-dashboard-add.php:1233
+msgid "Add Property"
+msgstr ""
+
+#: template-dashboard-list.php:115
+msgid "You don't have any properties yet!"
+msgstr ""
+
+#: template-dashboard-list.php:157
+msgid "Expired"
+msgstr ""
+
+#: template-dashboard-list.php:160
+msgid "Published"
+msgstr ""
+
+#: template-dashboard-list.php:163
+msgid "Waiting for approval"
+msgstr ""
+
+#: template-dashboard-list.php:170
+msgid "Paid"
+msgstr ""
+
+#: template-dashboard-list.php:173
+msgid "Not Paid"
+msgstr ""
+
+#: template-dashboard-list.php:183 template-dashboard-profile.php:350
+msgid "Featured"
+msgstr ""
+
+#: template-dashboard-list.php:198
+msgid "Listed in"
+msgstr ""
+
+#: template-dashboard-list.php:201
+msgid "and"
+msgstr ""
+
+#: template-dashboard-list.php:217
+msgid "Are you sure you wish to delete "
+msgstr ""
+
+#: template-dashboard-list.php:229
+msgid "Resend for approval"
+msgstr ""
+
+#: template-dashboard-list.php:240
+msgid "*You can featured this property by clicking the button."
+msgstr ""
+
+#: template-dashboard-list.php:248
+msgid "Price Info"
+msgstr ""
+
+#: template-dashboard-list.php:252
+msgid "Featured listing"
+msgstr ""
+
+#: template-dashboard-list.php:288
+msgid "Submission Payment"
+msgstr ""
+
+#: template-dashboard-list.php:306
+msgid "Submission & Featured Payment"
+msgstr ""
+
+#: template-dashboard-list.php:325
+msgid "Property is featured"
+msgstr ""
+
+#: template-dashboard-list.php:329
+msgid "Upgrade to Featured (PayPal)"
+msgstr ""
+
+#: template-dashboard-list.php:360
+msgid " Featured Payment"
+msgstr ""
+
+#: template-dashboard-profile.php:148
+msgid "Welcome back, "
+msgstr ""
+
+#: template-dashboard-profile.php:177
+msgid "Upload Profile Image"
+msgstr ""
+
+#: template-dashboard-profile.php:184
+msgid "*recommended size: at least 160 px tall &amp; wide"
+msgstr ""
+
+#: template-dashboard-profile.php:188
+msgid "First Name"
+msgstr ""
+
+#: template-dashboard-profile.php:193
+msgid "Last Name"
+msgstr ""
+
+#: template-dashboard-profile.php:224
+msgid "About Me"
+msgstr ""
+
+#: template-dashboard-profile.php:232
+msgid "Update profile"
+msgstr ""
+
+#: template-dashboard-profile.php:237
+msgid "Change Password"
+msgstr ""
+
+#: template-dashboard-profile.php:241
+msgid "Old Password"
+msgstr ""
+
+#: template-dashboard-profile.php:246
+msgid "New Password "
+msgstr ""
+
+#: template-dashboard-profile.php:250
+msgid "Confirm New Password"
+msgstr ""
+
+#: template-dashboard-profile.php:266
+msgid "Select your Package"
+msgstr ""
+
+#: template-dashboard-profile.php:271
+msgid "make payment recurring"
+msgstr ""
+
+#: template-dashboard-profile.php:312
+msgid "Packages Available"
+msgstr ""
+
+#: template-dashboard-profile.php:345
+msgid "Unlimited"
+msgstr ""
+
+#: template-dashboard-profile.php:345
+msgid "listings of which"
+msgstr ""
+
+#: template-dashboard-profile.php:347
+msgid "Listings of which"
+msgstr ""
+
+#: template-paypal-processor.php:117 template-stripe-processor.php:190
+msgid "Booking Confirmation"
+msgstr ""
+
+#: template-paypal-processor.php:118 template-paypal-processor.php:122
+#: template-stripe-processor.php:191 template-stripe-processor.php:195
+msgid "A booking was confirmed"
+msgstr ""
+
+#: template-paypal-processor.php:121 template-stripe-processor.php:194
+msgid "Booking Confirmed"
+msgstr ""
+
+#: template-property-search-result.php:44
+msgid ""
+"Apologies, but no results were found for the requested property archive. "
+"Perhaps searching will help find a related post."
+msgstr ""
+
+#: template-property-search-result.php:52
+msgid "Search Result"
+msgstr ""
+
+#: title.php:23
+#, php-format
+msgid "Daily Archives <span>%s</span>"
+msgstr ""
+
+#: title.php:25
+#, php-format
+msgid "Monthly Archives <span>%s</span>"
+msgstr ""
+
+#: title.php:27
+#, php-format
+msgid "Yearly Archives <span>%s</span>"
+msgstr ""
+
+#: title.php:29
+#, php-format
+msgid "Author Archives %s"
+msgstr ""
+
+#: title.php:31
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: title.php:37
+#, php-format
+msgid "Search Results for %s"
+msgstr ""
+
+#: title.php:42
+msgid "404 Page"
+msgstr ""
+
+#: title.php:50
+msgid "Blog"
+msgstr ""
+
+#: widgets/nvr-agent-lists.php:7 widgets/nvr-agent-lists.php:8
+msgid "Novaro - Agent Lists"
+msgstr ""
+
+#: widgets/nvr-agent-lists.php:15
+msgid "List of Agents"
+msgstr ""
+
+#: widgets/nvr-agent-lists.php:79 widgets/nvr-property-lists.php:148
+#: widgets/nvr-recent-posts.php:55
+msgid "Permanent Link to"
+msgstr ""
+
+#: widgets/nvr-agent-lists.php:117 widgets/nvr-post-rotator.php:116
+#: widgets/nvr-property-lists.php:190 widgets/nvr-property-search.php:196
+#: widgets/nvr-recent-posts.php:92
+msgid "Title:"
+msgstr ""
+
+#: widgets/nvr-agent-lists.php:119 widgets/nvr-post-rotator.php:131
+#: widgets/nvr-recent-posts.php:94
+msgid "Category:"
+msgstr ""
+
+#: widgets/nvr-agent-lists.php:132 widgets/nvr-property-lists.php:234
+#: widgets/nvr-recent-posts.php:105
+msgid "Number of Post:"
+msgstr ""
+
+#: widgets/nvr-agent-lists.php:135 widgets/nvr-property-lists.php:237
+#: widgets/nvr-recent-posts.php:108
+msgid "Disable Thumb:"
+msgstr ""
+
+#: widgets/nvr-post-rotator.php:6 widgets/nvr-post-rotator.php:7
+msgid "Novaro - Post Rotator"
+msgstr ""
+
+#: widgets/nvr-post-rotator.php:119
+msgid "Limit Text:"
+msgstr ""
+
+#: widgets/nvr-post-rotator.php:122
+msgid "Post Type:"
+msgstr ""
+
+#: widgets/nvr-property-lists.php:7 widgets/nvr-property-lists.php:8
+msgid "Novaro - Property Lists"
+msgstr ""
+
+#: widgets/nvr-property-lists.php:15
+msgid "List of Properties"
+msgstr ""
+
+#: widgets/nvr-property-lists.php:192
+msgid "Type:"
+msgstr ""
+
+#: widgets/nvr-property-lists.php:196
+msgid "All Types"
+msgstr ""
+
+#: widgets/nvr-property-lists.php:206
+msgid "Purpose:"
+msgstr ""
+
+#: widgets/nvr-property-lists.php:210
+msgid "All Purposes"
+msgstr ""
+
+#: widgets/nvr-property-lists.php:220
+msgid "City:"
+msgstr ""
+
+#: widgets/nvr-property-search.php:7 widgets/nvr-property-search.php:8
+msgid "Novaro - Property Search"
+msgstr ""
+
+#: widgets/nvr-property-search.php:15
+msgid "Property Search"
+msgstr ""
+
+#: widgets/nvr-recent-comment.php:6 widgets/nvr-recent-comment.php:7
+msgid "Novaro - Recent Comments"
+msgstr ""
+
+#: widgets/nvr-recent-comment.php:14
+msgid "IF Recent Comments"
+msgstr ""
+
+#: widgets/nvr-recent-comment.php:38
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: widgets/nvr-recent-posts.php:7 widgets/nvr-recent-posts.php:8
+msgid "Novaro - Latest Posts"
+msgstr ""
+
+#: widgets/nvr-recent-posts.php:15
+msgid "Latest Posts"
+msgstr ""

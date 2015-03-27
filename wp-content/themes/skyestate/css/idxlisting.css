@@ -1,0 +1,38 @@
+#dsidx-listings{list-style-type:none; margin:0px; padding:0px;}
+#dsidx-listings li{list-style-type:none;}
+#dsidx-listings .dsidx-media .dsidx-photo img{width:240px;}
+#dsidx-listings .dsidx-primary-data{padding-top:0px; padding-bottom:0px;}
+#dsidx-listings .dsidx-address{ padding:7px 0px; font-size:18px; font-weight:600;}
+#dsidx-listings .dsidx-address:before{font-family:'FontAwesome'; content:"\f041"; }
+#dsidx-listings .dsidx-price{ padding:7px 0px; font-size:16px; font-weight:600;}
+#dsidx-listings .dsidx-secondary-data{ }
+#dsidx-listings .dsidx-secondary-data div{float:left; width:33%; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; position:relative; padding-left:15px; margin-bottom:10px; font-size:12px;}
+#dsidx-listings .dsidx-secondary-data div:before{font-family:'FontAwesome'; content:"\f138"; position:absolute; top:1px; left:0px;}
+
+#dsidx .dsidx-sorting-control{text-align:right;}
+#dsidx .dsidx-paging-control{text-align:right; margin-bottom:15px;}
+#dsidx .dsidx-sorting-control form{display:inline;}
+#dsidx .dsidx-sorting-control form select{width:auto;}
+
+#dsidx-media-td{padding:25px 15px; background-color:#f0f0f0;}
+.dsidx-details th{background-color:transparent; color:#333;}
+.dsidx-details th a, .dsidx-details th a:visited{color:#333;}
+.dsidx-details td{text-align:left;}
+#dsidx-header > table{border:0px;}
+.dsidx-details h3, .dsidx-details #dsidx-property-types{font-weight:300 !important; text-transform:uppercase; font-size:16px;}
+
+#dsidx-contact-form table td{padding:10px;}
+#dsidx.dsidx-details .dsidx-contact-form table input.dsidx-text{padding:7px 8px;}
+#dsidx-contact-form input, #dsidx-contact-form textarea{padding:7px 8px;}
+
+#dsidx-contact-form-submit{padding:8px 15px; background-color:#ff5c61; color:#fff; text-transform:uppercase;}
+#dsidx-contact-form-submit:hover{background-color:#333;}
+
+.dsidx-shortcode-item .dsidx-primary-photo{width:30% !important; margin-right:4% !important;}
+.dsidx-shortcode-item .dsidx-photos{margin:20px 0px !important; text-align:left !important;}
+.dsidx-shortcode-item table.dsidx-primary-data{width:65%; float:left;}
+.dsidx-shortcode-item th{background-color:transparent; color:#333; border-bottom:1px solid #f4f4f4; }
+.dsidx-shortcode-item td{text-align:left;}
+.dsidx-shortcode-item table{margin-left:0px !important;}
+.dsidx-shortcode-item h3{font-weight:300 !important; text-transform:uppercase; font-size:16px; text-decoration:none !important;}
+.dsidx-shortcode-item .dsidx-shortcode-map{margin-left:0px !important;}
