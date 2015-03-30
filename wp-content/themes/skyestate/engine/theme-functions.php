@@ -750,11 +750,18 @@ if(!function_exists('nvr_property_mapquery')){
 			if($filter_status!=''){
 				
 				$nvr_statusval = sanitize_text_field($filter_status);
+				//print_r($filter_status);
 				
+				//8print_r($nvr_statusval);
+				//echo $nvr_statusval[$i];exit;
+				
+			
 				$nvr_metaquery[] = array(
 					'key'		=> $nvr_initial.'_status',
-					'value'		=> $nvr_statusval
+					'value'		=> $filter_status,
+					'compare' => 'IN',
 				);
+				
 			}
 			
 			$filter_numroom = isset($_REQUEST['adv_filter_numroom'])? $_REQUEST['adv_filter_numroom'] : '';
@@ -1187,10 +1194,11 @@ function nvr_changepinmap(){
 	
 	$nvr_cache = false;
 	$nvr_markers = $nvr_senddata = array();
-	
+		//print_r($nvr_query_args);exit;
 	if($nvr_cache=='yes'){
 		if(!get_transient('cache_property_list')) { 
 
+	
 			$property_lists = new WP_Query($nvr_query_args);
 			set_transient('cache_property_list', $property_lists, HOUR_IN_SECONDS * 2);
 			

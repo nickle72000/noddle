@@ -273,7 +273,7 @@ function filtertoggle(){
 function ajaxchangepinmap(){
 	"use strict";
 	
-	var btnpropfilter = jQuery('#adv_quick_search');
+	var btnpropfilter = jQuery('#adv_quick_search,input[type="checkbox"]');
 	btnpropfilter.click(function(evt){
 		
 		evt.preventDefault();
@@ -282,16 +282,26 @@ function ajaxchangepinmap(){
 		if(markercluster){
 			markercluster.clearMarkers();
 		}
-		
+		var text= new Array();
+jQuery("input[name='search_map[]']").each(function(){
+
+if(jQuery(this).is(':checked')){
+
+    text.push(jQuery(this).val());
+	}
+});  
 		var filter_city			= jQuery('#adv_filter_city').val();
 		var filter_keywords		= jQuery('#adv_filter_keywords').val();
         var filter_purpose		= jQuery('#adv_filter_purpose').val();
         var filter_type			= jQuery('#adv_filter_type').val();
-        var filter_status		= jQuery('#adv_filter_status').val();
+       // var filter_status		= jQuery('#adv_filter_status').val();
+	   var filter_status		= text
         var filter_numroom		= jQuery('#adv_filter_numroom').val();
         var filter_numbath		= jQuery('#adv_filter_numbath').val();
 		var filter_pricemin		= jQuery('#adv_filter_price_min').val();
 		var filter_pricemax		= jQuery('#adv_filter_price_max').val();
+		var filter_pstatus		= text;
+		
 		var filter_ammenity = [];
         jQuery('input.adv_filter_ammenity:checked').each(function(i){
           filter_ammenity[i] = jQuery(this).val();
@@ -342,11 +352,24 @@ function ajaxchangepinmap(){
 						console.log(percentComplete);
 					}
 				}, false);
+				
 				return xhr;
 			}
 		});
 		
 		jqxhr.done(function(data, textStatus){
+		
+		
+		jQuery("input[name='search_map[]']").each(function(){
+		
+if(jQuery.inArray(jQuery(this).val(), text )>=0){
+  
+  jQuery(this).prop('checked', true);
+	}else{
+	jQuery(this).prop('checked', false);
+	}
+});  
+		
 			propcontainer.empty();
 			markers = data.markers;
 			if(typeof(markers.length)=='undefined'){alert('Properties Not Found');}

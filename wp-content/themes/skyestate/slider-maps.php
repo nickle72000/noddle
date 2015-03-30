@@ -97,7 +97,21 @@ $nvr_propstatuses = nvr_get_option($nvr_shortname.'_property_status');
         <a class="maps-nav-next fa fa-chevron-right" id="maps-nav-next" href="#"></a>
     	<a class="maps-nav-prev fa fa-chevron-left" id="maps-nav-prev" href="#"></a>
         <form id="frmadvsearch" class="frmadvsearch" method="get" action="<?php echo esc_url( $nvr_adv_submit ); ?>">
-            <div class="form-search container">
+		<ul class="search_cus">
+		<?php $nvr_propstatuses = nvr_get_option($nvr_shortname.'_property_status'); 
+		if($nvr_propstatuses){
+	for($i=0;$i<count($nvr_propstatuses);$i++){
+		$nvr_propstatus = $nvr_propstatuses[$i];
+		$nvr_optpropstatus[$nvr_propstatus] = $nvr_propstatus;
+	?><li>
+		
+		<?php echo $nvr_propstatus;?> &nbsp; <span><input type="checkbox" name="search_map[]" class="search_check" value="<?php echo $nvr_propstatus;?>"/></span></li><?php 
+	}
+}?>
+		
+		
+		</ul>
+       <?php /*     <div class="form-search container">
                 <div class="row search-row-1">
                     <div class="three columns"><input type="text" class="nvrtextbox" name="adv_filter_keywords" id="adv_filter_keywords" value="<?php echo esc_attr($filter_keywords); ?>" placeholder="<?php esc_attr_e('Keywords', THE_LANG); ?>" /></div>
                     <div class="three columns">
@@ -214,12 +228,13 @@ $nvr_propstatuses = nvr_get_option($nvr_shortname.'_property_status');
                     <div class="three columns quicksearchbutton"><input name="quicksearch" type="button" class="button" id="adv_quick_search" value="<?php esc_attr_e('Quick Search',THE_LANG);?>"></div>
                     <div class="three columns"><input name="submit" type="submit" class="button" id="adv_filter_submit" value="<?php esc_attr_e('Submit Advanced Search',THE_LANG);?>"></div>
                 </div>
-                <?php $nvr_nonce = wp_create_nonce("nvr_propadvancefilter_nonce"); ?>
+                
+            </div>*/?>
+			<?php $nvr_nonce = wp_create_nonce("nvr_propadvancefilter_nonce"); ?>
                 <input name="adv_filter_nonce" id="adv_filter_nonce" type="hidden" value="<?php echo esc_attr( $nvr_nonce ); ?>" />
                 <input name="page_id" id="nvr_page_id" type="hidden" value="<?php echo esc_attr( $nvr_page_id ); ?>" />
-            </div>
         </form>
-        </div>
+       </div>
    </div>
    <!-- END Advanced Search Container -->
    <?php wp_reset_query(); ?>

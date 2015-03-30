@@ -2745,9 +2745,10 @@ body.novaro.page-template-template-property-search-result #advanced-search-box #
 
 .advanced-search{
 	width:100%; 
-	max-width:1172px; 
+	max-width:450px; 
 	display:inline-block;
 	position:relative;
+	background-color:white;
 }
 .advanced-search #toggle-advanced-search{
 	position:absolute; 

@@ -1,1 +1,17 @@
 /* For Novaro's Theme Customization Style */
+
+.search_cus{
+list-style:none;
+}
+.search_cus li{
+float:left;
+text-align: left;
+    width: 50%;
+}
+.search_cus li:nth-child(2n + 1){
+clear:both;
+}
+.search_cus li span{
+float: right;
+    padding-right: 48px;
+}
