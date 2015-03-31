@@ -14,12 +14,12 @@
                 $nvr_custom = nvr_get_customdata($nvr_pid);
 				
                 $nvr_pagelayout = nvr_get_sidebar_position($nvr_pid);
-				
+				$p_type=get_post_type( $nvr_pid );
 				if(isset( $nvr_custom['_'.$nvr_initial.'_sectionbuilder'][0] )){
                     $nvr_sectionbuilders = unserialize($nvr_custom['_'.$nvr_initial.'_sectionbuilder'][0]);
                 }
 				
-                if($nvr_pagelayout!='one-col'){ 
+                if($nvr_pagelayout!='one-col' && $p_type!='propertys'){ 
                 ?>
                 
                         <div class="clearfix"></div>

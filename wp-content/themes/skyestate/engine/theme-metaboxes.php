@@ -564,14 +564,14 @@ $nvr_meta_boxes[] = array(
 	'context' => 'normal',
 	'priority' => 'high',
 	'fields' => array(
-		array(
+		/*array(
 			'name' => __('Layout',THE_LANG),
 			'desc' => '<em>'.__('Select the layout you want on this specific post/page. Overrides default site layout.',THE_LANG).'</em>',
 			'options' => $nvr_optlayoutimg,
 			'id' => '_'.$nvr_initial.'_layout',
 			'type' => 'selectimage',
 			'std' => ''
-		),
+		),*/
 		array(
 			'name' => __('Featured Property?',THE_LANG),
 			'desc' => '<em>'.__('Select Yes if you want this property to be featured.',THE_LANG).'</em>',
@@ -588,14 +588,14 @@ $nvr_meta_boxes[] = array(
 			'options' => $nvr_optpropstatus,
 			'std' => 'Normal'
 		),
-		array(
+		/* nick array(
 			'name' => __('Agent responsible',THE_LANG),
 			'desc' => '<em>'.__('Select the agent of the property.',THE_LANG).'</em>',
 			'id' => $nvr_initial.'_agent',
 			'type' => 'select',
 			'options' => $nvr_optpropagent,
 			'std' => 'none'
-		)
+		)*/
 	)
 );
 

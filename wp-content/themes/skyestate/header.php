@@ -221,8 +221,11 @@ if($nvr_txtContainerWidth>1100){
         <!-- END SECTION BUILDER BEFORE CONTENT -->
         
         <?php
-		$nvr_pagelayout = nvr_get_sidebar_position($nvr_pid);
+	 	$nvr_pagelayout = nvr_get_sidebar_position($nvr_pid);
+		$p_type=get_post_type( $nvr_pid );
 		
+		if($p_type=='propertys'){$nvr_pagelayout='one-col'; }
+		//echo $nvr_pagelayout;
 		if($nvr_pagelayout!='one-col'){
 			$nvr_mcontentclass = "hassidebar";
 			if($nvr_pagelayout=="two-col-left"){
@@ -236,6 +239,9 @@ if($nvr_txtContainerWidth>1100){
 		
 		$nvr_pagelayout = nvr_get_sidebar_position($nvr_pid);
 		$numcol = 1;
+		$p_type=get_post_type( $nvr_pid );
+		
+		if($p_type=='propertys'){$nvr_pagelayout='one-col'; }
 		if($nvr_pagelayout!='one-col'){
 			if($nvr_pagelayout=="two-col-left"){
 				$numcol = 2;

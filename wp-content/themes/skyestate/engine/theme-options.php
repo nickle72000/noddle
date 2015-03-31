@@ -673,7 +673,7 @@ if (!class_exists('Redux_Framework_sample_config')) {
                         'desc'     		=> __('You can add the property status in here.', THE_LANG),
                         'default'       => ''
                     ),
-					array(
+					/* nick hide array(
                         'id'            => $nvr_shortname."_property_amenities",
                         'type'          => 'multi_text',
                         'title'         => __('Property Features &amp; Amenities', THE_LANG),
@@ -686,7 +686,7 @@ if (!class_exists('Redux_Framework_sample_config')) {
                         'title'         => __('Property Custom Field', THE_LANG),
                         'desc'      => __('You can add a new field for the property in here.', THE_LANG),
                         'default'       => ''
-                    ),
+                    ), nick hide*/
 					array(
                         'id'            => $nvr_shortname."_pin_cluster",
                         'type'          => 'checkbox',

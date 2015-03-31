@@ -436,7 +436,7 @@ article.format-link .entry-content a, article.format-link .entry-content a:visit
 .nvr-prop-box{background-color:#fff; border-color:#f0f0f0;}
 .nvr-upper-meta span{background-color:#f4454a; color:#fff;}
 .nvr-upper-meta .meta-price{background-color:#ff5c61;}
-.nvr-prop-title{color:#333;}
+.nvr-prop-title{color:#333;text-align:center;}
 .nvr-prop-address{color:#aaa;}
 .nvr-prop-address .fa{color:#787878;}
 .nvr-prop-meta{border-color:#f0f0f0;}

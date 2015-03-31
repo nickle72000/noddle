@@ -2290,9 +2290,9 @@ h2.trigger a:hover {}
 .nvr-prop-img{position:relative;}
 .nvr-upper-meta{position:absolute; left:11px; top:0px;}
 .nvr-upper-meta span{display:block; float:left; padding:13px; font-size:12px; line-height:12px; font-weight:bold;}
-.nvr-prop-text{padding:16px;}
-.nvr-prop-title{font-size:14px; line-height:normal; font-weight:600; margin-bottom:5px;}
-.nvr-prop-address{font-size:13px;}
+/*.nvr-prop-text{padding:16px;}*/
+.nvr-prop-title{font-size:14px; line-height:normal; font-weight:600; margin-bottom:5px; padding:16px;}
+.nvr-prop-address{font-size:13px; padding:16px; background-color:#E1EAF8;}
 .nvr-prop-meta{border-width:1px 0px 0px; border-style:solid; padding:15px 18px; font-size:12px; line-height:normal; font-weight:700;}
 .nvr-prop-type, .nvr-prop-size, .nvr-prop-bed{margin-right:12px;}
 .nvr-prop-img a.image{
@@ -3092,4 +3092,9 @@ body.novaro #pick_pack{
     background-image: url('../images/paywithpaypal.png');
     margin: 11px 20px 11px 0px;
     cursor:pointer;
+}
+.site_plan{
+
+background-color:#2BE5E2;
+padding:10px;
 }

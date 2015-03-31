@@ -20,6 +20,7 @@ $nvr_unit = nvr_get_option( $nvr_shortname . '_measurement_unit');
 	if ( have_posts() ) while ( have_posts() ) : the_post(); 
 	
 		$nvr_custom = nvr_get_customdata( get_the_ID() );
+		echo "<pre>";print_r($nvr_custom);
 		$nvr_status = (isset($nvr_custom[$nvr_initial."_status"][0]))? $nvr_custom[$nvr_initial."_status"][0] : '';
 		$nvr_price = (isset($nvr_custom[$nvr_initial."_price"][0]))? $nvr_custom[$nvr_initial."_price"][0] : '';
 		$nvr_plabel = (isset($nvr_custom[$nvr_initial."_price_label"][0]))? $nvr_custom[$nvr_initial."_price_label"][0] : '';
@@ -29,7 +30,7 @@ $nvr_unit = nvr_get_option( $nvr_shortname . '_measurement_unit');
 		$nvr_lotsize = (isset($nvr_custom[$nvr_initial."_lot_size"][0]))? $nvr_custom[$nvr_initial."_lot_size"][0] : '';
 		$nvr_amenities = (isset($nvr_custom[$nvr_initial.'_amenities'][0]))? $nvr_custom[$nvr_initial.'_amenities'][0] : '';
 		$nvr_agent = (isset($nvr_custom[$nvr_initial.'_agent'][0]))? $nvr_custom[$nvr_initial.'_agent'][0] : '';
-		
+		 $nvr_siteplan=(isset($nvr_custom['site_plan'][0]))? $nvr_custom['site_plan'][0] : '';
 		$nvr_address = (isset($nvr_custom[$nvr_initial."_address"][0]))? $nvr_custom[$nvr_initial."_address"][0] : '';
 		$nvr_state = (isset($nvr_custom[$nvr_initial."_state"][0]))? $nvr_custom[$nvr_initial."_state"][0] : '';
 		$nvr_country = (isset($nvr_custom[$nvr_initial."_country"][0]))? $nvr_custom[$nvr_initial."_country"][0] : '';
@@ -76,8 +77,10 @@ $nvr_unit = nvr_get_option( $nvr_shortname . '_measurement_unit');
 				'post_type' => 'peoplepost',
 				'name' => $nvr_agent
 			));
+			
 			if($nvr_get_agent->have_posts()){
 				while($nvr_get_agent->have_posts()){
+				
 					$nvr_get_agent->next_post();
 					$nvr_agentid = $nvr_get_agent->post->ID;
 					$nvr_agent_data['title'] = $nvr_get_agent->post->post_title;
@@ -116,23 +119,28 @@ $nvr_unit = nvr_get_option( $nvr_shortname . '_measurement_unit');
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<div class="entry-content">
             	<div class="prop-single-head">
-                	<div class="prop-price-container">
+                	<?php /*<div class="prop-price-container">
                     	<div class="prop-single-purpose"><?php echo '<i class="fa fa-tag"></i> '.$nvr_purpose; ?></div>
                         <div class="prop-single-price"><?php echo nvr_show_price($nvr_price, $nvr_cursymbol, $nvr_curplace).' '.$nvr_plabel;?></div>
-                    </div>
+                    </div>*/?>
                     <div class="prop-single-summary">
                     	<h1 class="prop-title"><?php the_title(); ?></h1>
-                        <div class="prop-category"><?php echo implode(", ",$nvr_typearr); ?></div>
-                        <div class="prop-address"><?php echo '<i class="fa-map-marker fa"></i> '.$nvr_complete_address; ?></div>
+                        <div class="prop-category"><?php //echo implode(", ",$nvr_typearr); ?></div>
+                        <div class="prop-address"><?php //'<i class="fa-map-marker fa"></i> ' 
+						echo $nvr_complete_address; ?></div>
                     </div>
                     <div class="clearfix"></div>
                 </div>
             	<div class="prop-single-desc">
-                	<h3 class="prop-single-title"><?php _e('Property Description', THE_LANG); ?></h3>
+                <?php /*	<h3 class="prop-single-title"><?php _e('Property Description', THE_LANG); ?></h3>*/?>
 					<div class="prop-single-content"><?php the_content(); ?></div>
                     <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', THE_LANG ), 'after' => '</div>' ) ); ?>
                 </div>
-                <div class="prop-single-detail">
+				<div class="site_plan">
+				
+				<?php echo wp_get_attachment_image($nvr_siteplan,'full');?>
+				</div>
+                <?php /*<div class="prop-single-detail">
                 	<h3 class="prop-single-title"><?php _e('Property Details', THE_LANG); ?></h3>
                     <div class="row">
                     	<div class="three columns"><?php _e('Price', THE_LANG); ?>:<br /> <span class="detailvalue"><?php echo nvr_show_price($nvr_price).' '.$nvr_plabel; ?></span></div>

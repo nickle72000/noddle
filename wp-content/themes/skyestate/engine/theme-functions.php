@@ -632,10 +632,11 @@ if(!function_exists('nvr_prop_get_box')){
 }
 
 if(!function_exists('nvr_show_price')){
-	function nvr_show_price($nvr_price=0, $nvr_cursymbol='', $nvr_curplace='' ){
+	function nvr_show_price($nvr_price='0.0', $nvr_cursymbol='', $nvr_curplace='' ){
 		$nvr_shortname = THE_SHORTNAME;
-		
+		if(is_float($nvr_price)){
 		$nvr_numformat = number_format($nvr_price,0,'.',',');
+		}
 		if($nvr_cursymbol==''){
 			$nvr_cursymbol = nvr_get_option( $nvr_shortname . '_currency_symbol');
 		}
@@ -1226,12 +1227,14 @@ function nvr_changepinmap(){
 			$prop_markers	= nvr_property_getdata($pid, $nvr_unit, $nvr_cursymbol, $nvr_curplace, $nvr_option);
 			$nvr_propbox	.= nvr_prop_get_box( $nvr_imgsize, get_the_ID(), 'element columns', $nvr_unit, $nvr_cursymbol, $nvr_curplace );
 			$nvr_markers[] = $prop_markers;
+			
 		endwhile;
 	}else{
 		$nvr_markers = false;
 	}
 	$nvr_senddata['markers'] = $nvr_markers;
 	$nvr_senddata['propbox'] = $nvr_propbox;
+	//print_r($nvr_senddata);exit;
 	wp_reset_query();
 	wp_send_json($nvr_senddata);
 	die();
