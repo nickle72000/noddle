@@ -20,7 +20,7 @@ $nvr_unit = nvr_get_option( $nvr_shortname . '_measurement_unit');
 	if ( have_posts() ) while ( have_posts() ) : the_post(); 
 	
 		$nvr_custom = nvr_get_customdata( get_the_ID() );
-		echo "<pre>";print_r($nvr_custom);
+		//echo "<pre>";print_r($nvr_custom);
 		$nvr_status = (isset($nvr_custom[$nvr_initial."_status"][0]))? $nvr_custom[$nvr_initial."_status"][0] : '';
 		$nvr_price = (isset($nvr_custom[$nvr_initial."_price"][0]))? $nvr_custom[$nvr_initial."_price"][0] : '';
 		$nvr_plabel = (isset($nvr_custom[$nvr_initial."_price_label"][0]))? $nvr_custom[$nvr_initial."_price_label"][0] : '';
@@ -137,8 +137,106 @@ $nvr_unit = nvr_get_option( $nvr_shortname . '_measurement_unit');
                     <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', THE_LANG ), 'after' => '</div>' ) ); ?>
                 </div>
 				<div class="site_plan">
-				
+				<p>SITE PLAN</p>
 				<?php echo wp_get_attachment_image($nvr_siteplan,'full');?>
+				</div>
+				<div class="">
+				<?php $props = CFS()->get('Tenants'); //echo "<pre>";print_r($props);?>
+				    <div class="tenants">
+					<h3>Tenants</h3>
+					<table>
+					<tr style="background-color:white;"><td >NAME</td><td>SQFT</td></tr>
+					<?php foreach($props as $value){?>
+					
+					<tr>
+					<td><?php echo $value['tenants_name'];?></td>
+					<td><?php echo $value['tenants_value'];?></td>
+					</tr>
+					
+					<?php }?>
+					</table>
+					</div>
+					<div class="oi">
+					<h3>OTHER INFORMATION</h3>
+					<table>
+					<?php $props = CFS()->get('Other_Imformation'); //echo "<pre>";print_r($props);?>
+					<?php foreach($props as $value){?>
+					
+					<tr>
+					<td><?php echo $value['oi_name'];?></td>
+					<td><?php echo $value['oi_value'];?></td>
+					</tr>
+					
+					<?php }?>
+					</table>
+					</div>
+				<div class="clearfix"></div>
+				<?php $props = CFS()->get('primary_market_radius'); //echo "<pre>";print_r($props);?>
+				    <div class="tenants">
+					<h3>primary market radius</h3>
+					<table>
+					<tr style="background-color:white;"><td >Miles</td><td>Population</td><td>Households</td></tr>
+					<?php foreach($props as $value){?>
+					
+					<tr>
+					<td><?php echo $value['miles'];?></td>
+					<td><?php echo $value['population'];?></td>
+					<td><?php echo $value['house_holds'];?></td>
+					</tr>
+					
+					<?php }?>
+					</table>
+					</div>
+					<div class="tenants">
+					<h3>Income per household</h3>
+					<table>
+					<tr style="background-color:white;"><td >Miles</td><td>Medium</td><td>Average</td></tr>
+					<?php $props = CFS()->get('income_per_household'); //echo "<pre>";print_r($props);?>
+					<?php foreach($props as $value){?>
+					
+					<tr>
+					<td><?php echo $value['milesMiles'];?></td>
+					<td><?php echo $value['medium'];?></td>
+					<td><?php echo $value['average'];?></td>
+					</tr>
+					
+					<?php }?>
+					</table>
+					</div>
+					<div class="clearfix"></div>
+				<?php $props = CFS()->get('median_age'); //echo "<pre>";print_r($props);?>
+				    <div class="tenants">
+					<h3>Median Age</h3>
+					<table>
+					<tr style="background-color:white;"><td >Miles</td><td>Age</td></tr>
+					<?php foreach($props as $value){?>
+					
+					<tr>
+					<td><?php echo $value['miles'];?></td>
+					<td><?php echo $value['ageAge'];?></td>
+					
+					</tr>
+					
+					<?php }?>
+					</table>
+					</div>
+					<div class="tenants">
+					<h3>Traffic Count</h3>
+					<table>
+					<tr style="background-color:white;"><td >Value</td><td>Location</td><td>EADT</td><td>Date counted</td></tr>
+					<?php $props = CFS()->get('traffic_count'); //echo "<pre>";print_r($props);?>
+					<?php foreach($props as $value){?>
+					
+					<tr>
+					<td><?php echo $value['tf_value'];?></td>
+					<td><?php echo $value['tf_location'];?></td>
+					<td><?php echo $value['tf_eadt'];?></td>
+					<td><?php echo $value['tf_date_counted'];?></td>
+					</tr>
+					
+					<?php }?>
+					</table>
+					</div>
 				</div>
                 <?php /*<div class="prop-single-detail">
                 	<h3 class="prop-single-title"><?php _e('Property Details', THE_LANG); ?></h3>
@@ -206,15 +304,18 @@ $nvr_unit = nvr_get_option( $nvr_shortname . '_measurement_unit');
                         
                     </div>
                 <?php
-				}/* end if $nvr_amenities!='' */
-				?>
-                
-                <div class="prop-single-maps">
+				}/* end if $nvr_amenities!=''
+
+  <div class="prop-single-maps">
                 	<h3 class="prop-single-title"><?php _e('Location of this Property', THE_LANG); ?></h3>
                     <div class="nvr_googlemap">
 						<div id="gMapsContainer"></div>
 					</div>
                 </div>
+				*/
+				?>
+                
+              
                 
                 <?php if($nvr_has_agent){ ?>
                 <div class="prop-single-agent">
@@ -288,7 +389,7 @@ $nvr_unit = nvr_get_option( $nvr_shortname . '_measurement_unit');
                 <?php } ?>
                 
                 <?php
-		
+		/*
 				$nvr_idnum = 0;
 				
 				$nvr_pagelayout = nvr_get_sidebar_position(get_the_ID());
@@ -362,7 +463,7 @@ $nvr_unit = nvr_get_option( $nvr_shortname . '_measurement_unit');
 		</div><!-- #post -->
     
     <?php 
-		comments_template( '', true ); 
+		//comments_template( '', true ); */
 	endwhile; 
 	?>
 	<div class="clearfix"></div><!-- clear float --> 

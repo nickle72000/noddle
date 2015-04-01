@@ -15,3 +15,41 @@ clear:both;
 float: right;
     padding-right: 48px;
 }
+.site_plan{
+text-align:center;
+}
+
+.site_plan p{
+ background-color: #25bcba;
+    color: white;
+    padding: 15px;
+    width: 14%;
+}
+.tenants{
+float:left;
+width:50%;
+}
+.tenants h3{
+text-transform: uppercase;
+}
+.tenants table{
+width:80%;
+}
+.tenants table tr:nth-child(2n + 1){
+ background-color: #E2E2E2;
+}
+.oi h3{
+text-transform: uppercase;
+}
+.oi{
+float:left;
+width:50%;
+
+}
+.oi table{
+width:80%;
+}
+
+.oi table tr:nth-child(even){
+ background-color: #E2E2E2;
+}
